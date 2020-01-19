@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cruitathon</title>
+</head>
+<body>
+    {% if team_selected %}
+        <h1>{{team_selected}}</h1>
+    {% else %}
+        <h1>Cruitathon Home Page</h1>
+    {% endif %}
+    <!-- <p>blah blah</p> -->
+    <!-- <p>{{a}}</p> -->
+    {% if a %}
+        <p>{{a}}</p>
+        <!-- <table>
+            <thead></thead>
+            <tbody>
+                t
+            </tbody>
+        </table> -->
+    {% endif %}
+    <form action="/submit" method="POST">
+        <select name="team_selected" id="team_dropdown">
+            <option></option>
+            {% for team in teams %}
+                <option>{{team}}</option>
+            {% endfor %}
+        </select>
+        <input type="submit">    
+    </form>
+    {% if not team_data.empty %}
+    <table>
+        <tr>
+            <th>Commit</th>
+            <th>Position</th>
+        </tr>
+        {% for key, row in team_data.iterrows() %}
+            <tr>
+                <td>{{row['name']}}</td>
+                <td>{{row['position']}}</td>
+                <!-- {% for commit in commit_list %}
+                    <td>{{commit}}</td>
+                {% endfor %}
+                {% for position in position_list %}
+                    <td>{{position}}</td>
+                {% endfor %} -->
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    <h3>Distribution of {{team_selected}} Commits with Offers from:</h3>
+    <table>
+        <tr>
+            <th>Competition Offers</th>
+            <th>Count</th>
+        </tr>
+    {% for row in competition_results %}
+        <tr>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+        </tr>
+    {% endfor %}
+    </table>
+    
+    <ul>
+
+    </ul>
+    
+</body>
+</html>
