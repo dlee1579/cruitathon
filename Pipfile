@@ -12,6 +12,7 @@ psycopg2-binary = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 pandas = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.7"
