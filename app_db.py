@@ -46,18 +46,21 @@ def competition_plot(competitors, count_comp):
     return graphJSON
 
 # db = create_engine("postgresql+psycopg2://postgres:Dl1579icn33@localhost:5432/cruitathon")
+
+
 db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True)
 
 Session = sessionmaker(bind = db)
 session = Session()
 recruits = session.query(Recruits)
 teams = session.query(Teams).all()
-competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
-    .join(Recruits, Offers.player_id==Recruits.id)\
-    .group_by(Recruits.team, Offers.team_offered)\
-    .having(Recruits.team!=Offers.team_offered)\
-    .having(func.count(Offers.team_offered)>7)
+# competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
+#     .join(Recruits, Offers.player_id==Recruits.id)\
+#     .group_by(Recruits.team, Offers.team_offered)\
+#     .having(Recruits.team!=Offers.team_offered)\
+#     .having(func.count(Offers.team_offered)>7)
 
+session.expire_all()
 # print(db)
 # for item in a:
 
@@ -83,8 +86,16 @@ def index():
 
 @app.route("/submit", methods=['POST'])
 def submit():
+    Session = sessionmaker(bind = db)
+    session = Session()
+    competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
+        .join(Recruits, Offers.player_id==Recruits.id)\
+        .group_by(Recruits.team, Offers.team_offered)\
+        .having(Recruits.team!=Offers.team_offered)\
+        .having(func.count(Offers.team_offered)>7)
     team_selected = request.form["team_selected"]
     competition_results = competition.having(Recruits.team==team_selected).order_by(func.count(Offers.team_offered).desc()).all()
+    session.expire_all()
     # print(competition_results)
     competitors = [x[1] for x in competition_results]
     count_comp = [x[2] for x in competition_results]
