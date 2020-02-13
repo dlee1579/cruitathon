@@ -18,8 +18,8 @@ dash = "*"
 alembic = "*"
 flask-migrate = "*"
 # mysqldb = "*"
-mysql-connector = "*"
-mysql-python = "*"
+# mysql-connector = "*"
+# mysql-python = "*"
 mysql = "*"
 
 [requires]
