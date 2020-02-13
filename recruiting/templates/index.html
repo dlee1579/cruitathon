@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cruitathon</title>
+</head>
+<body>
+<h1>Cruitathon Home Page</h1>
+<p>This page is blah blah blah</p>
+<form>
+    <select name="dropdown" method="POST" action="/">
+        {% for team in teams %}
+            <option value="team">{{  team  }}</option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Submit">
+
+</form>
+<p>{{team_selected}}</p>
+<p>{{dropdown}}</p>
+<img src="\static\images\LSU.png">
+
+</body>
+</html>

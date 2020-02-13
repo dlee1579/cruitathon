@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+ipykernel = "*"
 
 [packages]
 flask = "*"
@@ -13,6 +14,13 @@ flask-sqlalchemy = "*"
 gunicorn = "*"
 pandas = "*"
 plotly = "*"
+dash = "*"
+alembic = "*"
+flask-migrate = "*"
+mysqldb = "*"
+mysql-connector = "*"
+mysql-python = "*"
+mysql = "*"
 
 [requires]
 python_version = "3.7"

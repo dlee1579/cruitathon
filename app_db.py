@@ -16,19 +16,19 @@ logging.basicConfig(level=logging.DEBUG)
 Base = declarative_base()
 
 class Recruits(Base):
-    __tablename__ = "recruits"
+    __tablename__ = "Recruits"
     id = Column(Integer, primary_key =  True)
     name = Column(String)
     team = Column(String)
     position = Column(String)
 
 class Teams(Base):
-    __tablename__ = "teams"
+    __tablename__ = "Teams"
     team_name = Column(String, primary_key=True)
     conference = Column(String)
 
 class Offers(Base):
-    __tablename__ = "offers"
+    __tablename__ = "Offers"
     column_not_exist_in_db = Column(Integer, primary_key=True) # just add for sake of this error, dont add in db
     player_id = Column(Integer)
     team_offered = Column(String)
@@ -45,7 +45,8 @@ def competition_plot(competitors, count_comp):
     graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
     return graphJSON
 
-db = create_engine("postgresql+psycopg2://postgres:Dl1579icn33@localhost:5432/cruitathon")
+# db = create_engine("postgresql+psycopg2://postgres:Dl1579icn33@localhost:5432/cruitathon")
+db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True)
 
 Session = sessionmaker(bind = db)
 session = Session()

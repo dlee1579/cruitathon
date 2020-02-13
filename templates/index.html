@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
     <title>Cruitathon</title>
 </head>
 <body>
@@ -11,6 +13,14 @@
         <h1>{{team_selected}}</h1>
     {% else %}
         <h1>Cruitathon Home Page</h1>
+    {% endif %}
+    {% if plot %}
+    <div class="chart" id="bargraph">
+        <script>
+            var graphs = {{plot | safe}};
+            Plotly.plot('bargraph',graphs,{});
+        </script>
+    </div>
     {% endif %}
     <!-- <p>blah blah</p> -->
     <!-- <p>{{a}}</p> -->
