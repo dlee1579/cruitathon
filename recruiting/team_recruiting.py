@@ -1,5 +1,11 @@
-from recruiting import *
-from recruiting.player import *
+# from . import player
+from .player import *
+import requests
+from bs4 import BeautifulSoup
+import os
+import pandas as pd
+
+# from recruiting import *
 
 
 class team_recruits(object):

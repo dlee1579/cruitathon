@@ -1,51 +1,131 @@
-team_name,conference
-Clemson,ACC
-Alabama,SEC
-LSU,SEC
-Ohio State,Big Ten
-Texas A&M,SEC
-Georgia,SEC
-Texas,Big 12
-Florida,SEC
-Auburn,SEC
-Oklahoma,Big 12
-Michigan,Big Ten
-Penn State,Big Ten
-Notre Dame,Indep
-Washington,Pac-12
-Miami,ACC
-Oregon,Pac-12
-North Carolina,ACC
-South Carolina,SEC
-Tennessee,SEC
-Stanford,Pac-12
-Nebraska,Big Ten
-Mississippi State,SEC
-Georgia Tech,ACC
-Kentucky,SEC
-Iowa,Big Ten
-Florida State,ACC
-Wisconsin,Big Ten
-UCLA,Pac-12
-Louisville,ACC
-Northwestern,Big Ten
-Minnesota,Big Ten
-California,Pac-12
-Colorado,Pac-12
-Purdue,Big Ten
-Maryland,Big 12
-NC State,ACC
-Michigan State,Big Ten
-Iowa State,Big 12
-Pittsburgh,ACC
-TCU,Big 12
-Kansas,Big 12
-Oklahoma State,Big 12
-Texas Tech,Big 12
-West Virginia,Big 12
-Ole Miss,SEC
-Arizona State,Pac-12
-Oregon State,Pac-12
-Kansas State,Big-12
-Indiana,Big Ten
-Virginia,ACC
+team,conference,mascot,city,state
+UCF,AAC,Knights,Orlando,Florida
+Cincinnati,AAC,Bearcats,Cincinnati,Ohio
+Uconn,AAC,Huskies,Storrs,Connecticut
+ECU,AAC,Pirates,Greenville,North Carolina
+Houston,AAC,Cougars,Houston,Texas
+Memphis,AAC,Tigers,Memphis,Tennessee
+USF,AAC,Bulls,Tampa,Florida
+SMU,AAC,Mustangs,Dallas,Texas
+Temple,AAC,Owls,Philadelphia,Pennsylvania
+Tulane,AAC,Green Wave,New Orleans,Louisiana
+Tulsa,AAC,Golden Hurricane,Tulsa,Oklahoma
+Wichita State,AAC,Shockers,Wichita,Kansas
+Boston College,ACC,Eagles,Chestnut Hill,Massachusetts
+Clemson,ACC,Tigers,Clemson,South Carolina
+Florida State,ACC,Seminoles,Tallahassee,Florida
+Louisville,ACC,Cardinals,Louisville,Kentucky
+NC State,ACC,Wolfpack,Raleigh,North Carolina
+Notre Dame,ACC,Fighting Irish,Notre Dame,Indiana
+Syracuse,ACC,Orange,Syracuse,New York
+Wake Forest,ACC,Demon Deacons,Winston-Salem,North Carolina
+Duke,ACC,Blue Devils,Durham,North Carolina
+Georgia Tech,ACC,Yellow Jackets,Atlanta,Georgia
+Miami,ACC,Hurricanes,Coral Gables,Florida
+UNC,ACC,Tar Heels,Chapel Hill,North Carolina
+Pittsburgh,ACC,Panthers,Pittsburgh,Pennsylvania
+Virginia,ACC,Cavaliers,Charlottesville,Virginia
+Virginia Tech,ACC,Hokies,Blacksburg,Virginia
+Indiana,Big Ten,Hoosiers,Bloomington,Indiana
+Maryland,Big Ten,Terrapins,College Park,Maryland
+Michigan,Big Ten,Wolverines,Ann Arbor,Michigan
+Michigan State,Big Ten,Spartans,East Lansing,Michigan
+Ohio State,Big Ten,Buckeyes,Columbus,Ohio
+Penn State,Big Ten,Nittany Lions,State College,Pennsylvania
+Rutgers,Big Ten,Scarlet Knights,New Brunswick–Piscataway,New Jersey
+Illinois,Big Ten,Fighting Illini,Champaign-Urbana,Illinois
+Iowa,Big Ten,Hawkeyes,Iowa City,Iowa
+Minnesota,Big Ten,Golden Gophers,Minneapolis-St. Paul,Minnesota
+Nebraska,Big Ten,Cornhuskers,Lincoln,Nebraska
+Northwestern,Big Ten,Wildcats,Evanston,Illinois
+Purdue,Big Ten,Boilermakers,West Lafayette,Indiana
+Wisconsin,Big Ten,Badgers,Madison,Wisconsin
+Baylor,Big 12,Bears/Lady Bears,Waco,Texas
+Iowa State,Big 12,Cyclones,Ames,Iowa
+Kansas,Big 12,Jayhawks,Lawrence,Kansas
+Kansas State,Big 12,Wildcats,Manhattan,Kansas
+Oklahoma,Big 12,Sooners,Norman,Oklahoma
+Oklahoma State,Big 12,Cowboys/Cowgirls,Stillwater,Oklahoma
+TCU,Big 12,Horned Frogs,Fort Worth,Texas
+Texas,Big 12,Longhorns,Austin,Texas
+Texas Tech,Big 12,Red Raiders,Lubbock,Texas
+West Virginia,Big 12,Mountaineers,Morgantown,West Virginia
+UAB,C-USA,Blazers,Birmingham,Alabama
+FAU,C-USA,Owls,Boca Raton,Florida
+FIU,C-USA,Panthers,University Park,Florida
+Louisiana Tech,C-USA,Bulldogs,Ruston,Louisiana
+Marshall,C-USA,Thundering Herd,Huntington,West Virginia
+Middle Tennessee State,C-USA,Blue Raiders,Murfreesboro,Tennessee
+UNC-Charlotte,C-USA,49ers,Charlotte,North Carolina
+UNT,C-USA,Mean Green,Denton,Texas
+Old Dominion,C-USA,Monarchs,Norfolk,Virginia
+Rice,C-USA,Owls,Houston,Texas
+Southern Miss,C-USA,Golden Eagles,Hattiesburg,Mississippi
+UTEP,C-USA,Miners,El Paso,Texas
+UTSA,C-USA,Roadrunners,San Antonio,Texas
+Western Kentucky,C-USA,Hilltoppers,Bowling Green,Kentucky
+Army,Ind,Black Knights,West Point,New York
+BYU,Ind,Cougars,Provo,Utah
+Liberty,Ind,Flames,Lynchburg,Virginia
+New Mexico State,Ind,Aggies,Las Cruces,New Mexico
+Akron,MAC,Zips,Akron,Ohio
+Bowling Green,MAC,Falcons,Bowling Green,Ohio
+Buffalo,MAC,Bulls,Buffalo,New York
+Kent State,MAC,Golden Flashes,Kent,Ohio
+Miami (OH),MAC,RedHawks,Oxford,Ohio
+Ohio,MAC,Bobcats,Athens,Ohio
+Ball State,MAC,Cardinals,Muncie,Indiana
+Central Michigan,MAC,Chippewas,Mount Pleasant,Michigan
+Eastern Michigan,MAC,Eagles,Ypsilanti,Michigan
+Northern Illinois,MAC,Huskies,DeKalb,Illinois
+Toledo,MAC,Rockets,Toledo,Ohio
+Western Michigan,MAC,Broncos,Kalamazoo,Michigan
+Air Force,MWC,Falcons,Colorado Springs,Colorado
+Boise State,MWC,Broncos,Boise,Idaho
+Fresno State,MWC,Bulldogs,Fresno,California
+Colorado State,MWC,Rams,Fort Collins,Colorado
+Nevada,MWC,Wolf Pack,Reno,Nevada
+UNLV,MWC,Rebels,Paradise,Nevada
+New Mexico,MWC,Lobos,Albuquerque,New Mexico
+San Diego State,MWC,Aztecs,San Diego,California
+San Jose State,MWC,Spartans,San Jose,California
+Utah State,MWC,Aggies,Logan,Utah
+Wyoming,MWC,Cowboys,Laramie,Wyoming
+Arizona,Pac-12,Wildcats,Tucson,Arizona
+Arizona State,Pac-12,Sun Devils,Tempe,Arizona
+California,Pac-12,Golden Bears,Berkeley,California
+UCLA,Pac-12,Bruins,Los Angeles,California
+Colorado,Pac-12,Buffaloes,Boulder,Colorado
+Oregon,Pac-12,Ducks,Eugene,Oregon
+Oregon State,Pac-12,Beavers,Corvallis,Oregon
+USC,Pac-12,Trojans,Los Angeles,California
+Stanford,Pac-12,Cardinal,Stanford,California
+Utah,Pac-12,Utes,Salt Lake City,Utah
+Washington,Pac-12,Huskies,Seattle,Washington
+Washington State,Pac-12,Cougars,Pullman,Washington
+Florida,SEC,Gators,Gainesville,Florida
+Georgia,SEC,Bulldogs,Athens,Georgia
+Kentucky,SEC,Wildcats,Lexington,Kentucky
+Missouri,SEC,Tigers,Columbia,Missouri
+South Carolina,SEC,Gamecocks,Columbia,South Carolina
+Tennessee,SEC,Volunteers,Knoxville,Tennessee
+Vanderbilt,SEC,Commodores,Nashville,Tennessee
+Alabama,SEC,Crimson Tide,Tuscaloosa,Alabama
+Arkansas,SEC,Razorbacks,Fayetteville,Arkansas
+Auburn,SEC,Tigers,Auburn,Alabama
+LSU,SEC,Tigers,Baton Rouge,Louisiana
+Ole Miss,SEC,Rebels,Oxford,Mississippi
+Mississippi State,SEC,Bulldogs,Starkville,Mississippi
+Texas A&M,SEC,Aggies,College Station,Texas
+App State,Sun Belt,Mountaineers,Boone,North Carolina
+Arkansas State,Sun Belt,Red Wolves,Jonesboro,Arkansas
+Coastal Carolina,Sun Belt,Chanticleers,Conway,South Carolina
+Georgia Southern,Sun Belt,Eagles,Statesboro,Georgia
+Georgia State,Sun Belt,Panthers,Atlanta,Georgia
+Arkansas (Little Rock),Sun Belt,Trojans,Little Rock,Arkansas
+Louisiana-Lafayette,Sun Belt,Ragin'' Cajuns,Lafayette,Louisiana
+Louisiana-Monroe,Sun Belt,Warhawks,Monroe,Louisiana
+South Alabama,Sun Belt,Jaguars,Mobile,Alabama
+Texas State,Sun Belt,Bobcats,San Marcos,Texas
+UT Arlington,Sun Belt,Mavericks,Arlington,Texas
+Troy,Sun Belt,Trojans,Troy,Alabama

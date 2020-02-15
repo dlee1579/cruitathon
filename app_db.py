@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from sqlalchemy import Column, Integer, String
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.pool import NullPool
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import func
 import logging
@@ -26,6 +27,9 @@ class Teams(Base):
     __tablename__ = "Teams"
     team_name = Column(String, primary_key=True)
     conference = Column(String)
+    mascot = Column(String)
+    city = Column(String)
+    state = Column(String)
 
 class Offers(Base):
     __tablename__ = "Offers"
@@ -46,9 +50,7 @@ def competition_plot(competitors, count_comp):
     return graphJSON
 
 # db = create_engine("postgresql+psycopg2://postgres:Dl1579icn33@localhost:5432/cruitathon")
-
-
-db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True)
+db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
 
 Session = sessionmaker(bind = db)
 session = Session()
@@ -60,13 +62,7 @@ teams = session.query(Teams).all()
 #     .having(Recruits.team!=Offers.team_offered)\
 #     .having(func.count(Offers.team_offered)>7)
 
-session.expire_all()
-# print(db)
-# for item in a:
-
-# team_results =
-
-# result_set = db.execute("SELECT team_name FROM teams")
+session.close()
 
 teamlist = []
 for row in teams:
@@ -86,16 +82,20 @@ def index():
 
 @app.route("/submit", methods=['POST'])
 def submit():
-    Session = sessionmaker(bind = db)
+    # db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
+    # Session = sessionmaker(bind = db)
     session = Session()
     competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
         .join(Recruits, Offers.player_id==Recruits.id)\
         .group_by(Recruits.team, Offers.team_offered)\
         .having(Recruits.team!=Offers.team_offered)\
-        .having(func.count(Offers.team_offered)>7)
+        # .limit(8)
+        # .having(func.count(Offers.team_offered)>7)\
+        # .limit(8)
     team_selected = request.form["team_selected"]
-    competition_results = competition.having(Recruits.team==team_selected).order_by(func.count(Offers.team_offered).desc()).all()
-    session.expire_all()
+    competition_results = competition.having(Recruits.team==team_selected).order_by(func.count(Offers.team_offered).desc()).limit(8)
+    session.close()
+    # db.dispose()
     # print(competition_results)
     competitors = [x[1] for x in competition_results]
     count_comp = [x[2] for x in competition_results]
@@ -120,7 +120,7 @@ def submit():
         # print(a)
     # team_dict = {"commit_list": commit_list, "position_list": position_list}
     return render_template("/index.html", teams=teamlist, team_selected=team_selected, team_data=team_data, competition_results=competition_results, plot=bar)
-    
+
 
 if __name__ == "__main__":
     app.debug = True

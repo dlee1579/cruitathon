@@ -21,6 +21,8 @@ flask-migrate = "*"
 # mysql-connector = "*"
 # mysql-python = "*"
 mysql = "*"
+requests = "*"
+bs4 = "*"
 
 [requires]
 python_version = "3.7"

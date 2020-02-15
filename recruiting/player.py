@@ -1,5 +1,7 @@
-from recruiting import *
-
+# from recruiting import *
+import requests
+from bs4 import BeautifulSoup
+import os
 
 class player(object):
     def __init__(self, name="", position="", score=0, url=""):
