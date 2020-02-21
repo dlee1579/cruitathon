@@ -11,6 +11,7 @@ import plotly
 import plotly.graph_objs as go
 import numpy as np
 import json
+import sys
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -37,6 +38,16 @@ class Offers(Base):
     player_id = Column(Integer)
     team_offered = Column(String)
 
+def pos_dist_plot(pos_dist):
+    data = [
+        go.Pie(
+            labels=pos_dist["position"],
+            values=pos_dist["id"]
+        )
+    ]
+    graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
+    return graphJSON
+
 def competition_plot(competitors, count_comp):
     df = pd.DataFrame({'x': competitors, 'y': count_comp}) # creating a sample dataframe
 
@@ -50,12 +61,12 @@ def competition_plot(competitors, count_comp):
     return graphJSON
 
 # db = create_engine("postgresql+psycopg2://postgres:Dl1579icn33@localhost:5432/cruitathon")
-db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
+db = create_engine('mysql+pymysql://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
 
 Session = sessionmaker(bind = db)
 session = Session()
-recruits = session.query(Recruits)
-teams = session.query(Teams).all()
+# recruits = session.query(Recruits)
+teams = session.query(Teams.team_name, Teams.conference).all()
 # competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
 #     .join(Recruits, Offers.player_id==Recruits.id)\
 #     .group_by(Recruits.team, Offers.team_offered)\
@@ -65,9 +76,11 @@ teams = session.query(Teams).all()
 session.close()
 
 teamlist = []
+teams_df =  pd.read_sql_table("Teams",db)
+# print(teams_df)
 for row in teams:
     teamlist.append(row.team_name)
-    # print(r[0])
+    # print(row)
 # print("Team List below:")
 # print(teamlist)
 
@@ -77,8 +90,22 @@ app = Flask(__name__, template_folder="templates")
 
 @app.route("/")
 def index():
-    # bar = competition_plot()
-    return render_template("/index.html", teams=teamlist, team_data=team_data)
+    return render_template("/home.html", teams=teamlist, team_data=team_data, teams_df = teams_df)
+
+@app.route("/team_view/<team_selected>", methods=["GET"])
+def team_view(team_selected):
+    session = Session()
+    recruits = session.query(Recruits).filter(Recruits.team==team_selected)
+    # print(recruits)
+    # for r in recruits:
+    #     print(r.__dict__)
+    recruits_df = pd.read_sql(recruits.statement, session.bind)
+    print(recruits_df)
+
+    pos_dist = recruits_df.groupby(by="position").count().reset_index().sort_values("id")[["position", "id"]]
+    print(pos_dist)
+    pie = pos_dist_plot(pos_dist)
+    return render_template("./team_view.html", team_selected=team_selected, plot=pie)
 
 @app.route("/submit", methods=['POST'])
 def submit():
@@ -99,10 +126,7 @@ def submit():
     # print(competition_results)
     competitors = [x[1] for x in competition_results]
     count_comp = [x[2] for x in competition_results]
-    # print(competitors)
-    # print(count_comp)
-        # print(item)
-    # result_set = db.execute("select * from recruits where team = '{}';".format(team_selected))
+    
     result = recruits.filter(Recruits.team==team_selected)
     commit_list = []
     position_list = []
@@ -115,16 +139,10 @@ def submit():
     team_data["name"]=commit_list
     team_data["position"]=position_list
     bar = competition_plot(competitors=competitors, count_comp=count_comp)
-    # print(team_data)
-    # for key, a in team_data.iterrows():
-        # print(a)
-    # team_dict = {"commit_list": commit_list, "position_list": position_list}
+
     return render_template("/index.html", teams=teamlist, team_selected=team_selected, team_data=team_data, competition_results=competition_results, plot=bar)
 
 
 if __name__ == "__main__":
     app.debug = True
     app.run()
-    # print(result)
-    # for r in result:
-    #     print(r.position)

@@ -1,0 +1,393 @@
+player_id,name,url,position,score,hometown,offers,state
+26,Dylan Downing,https://247sports.com/player/dylan-downing-45573225/high-school,RB ,0.8287," Carmel (Carmel, IN)    ",,IN
+27,Jeremiah Houston,https://247sports.com/player/jeremiah-houston-46079279/high-school,CB ,0.8045," Long Beach City College (Long Beach, CA)  ",,CA
+28,Kue Olotoa,https://247sports.com/player/kue-olotoa-46099322/high-school,OLB ,," Riverside C.C. (Riverside, CA)                 ",,CA
+54,Logan Loya,https://247sports.com/player/logan-loya-46047339/high-school,WR ,0.8958," St. John Bosco (Bellflower, CA)                    ",,CA
+55,John Humphrey,https://247sports.com/player/john-humphrey-46079589/high-school,CB ,0.8884," John Muir (Pasadena, CA)                    ",,CA
+56,Choe Bryant-Strother,https://247sports.com/player/choe-bryant-strother-46052981/high-school,ILB ,0.883," Greater Atlanta Christian School (Norcross, GA)                    ",,GA
+57,Mitchell Agude,https://247sports.com/player/mitchell-agude-46079579/high-school,WDE ,0.8797," Riverside C.C. (Riverside, CA)                    ",,CA
+58,Kenny Mestidor,https://247sports.com/player/kenny-mestidor-46051999/high-school,WDE ,0.8721," St. Thomas More (Oakdale, CT)                    ",,CT
+59,Caleb Johnson,https://247sports.com/player/caleb-johnson-46056538/high-school,ILB ,0.8669," Fullerton College (Fullerton, CA)                    ",,CA
+60,Myles Jackson,https://247sports.com/player/myles-jackson-46056600/high-school,WDE ,0.8618," Mill Creek (Hoschton, GA)                    ",,GA
+113,Bryan Bresee,https://247sports.com/player/bryan-bresee-46038819/high-school,DT ,0.9995," Damascus (Damascus, MD)                    ",,MD
+114,Myles Murphy,https://247sports.com/player/myles-murphy-46042886/high-school,SDE ,0.9965," Hillgrove (Powder Springs, GA)                    ",,GA
+115,DJ Uiagalelei,https://247sports.com/player/dj-uiagalelei-45573350/high-school,PRO ,0.9949," St. John Bosco (Bellflower, CA)                    ",,CA
+116,Trenton Simpson,https://247sports.com/player/trenton-simpson-46048683/high-school,OLB ,0.9871," Mallard Creek (Charlotte, NC)                    ",,NC
+117,Demonte Capehart,https://247sports.com/player/demonte-capehart-46042893/high-school,DT ,0.9832," IMG Academy (Bradenton, FL)                    ",,FL
+118,Fred Davis II,https://247sports.com/player/fred-davis-ii-46037551/high-school,CB ,0.9743," Trinity Christian Academy (Jacksonville, FL)                    ",,FL
+119,E.J. Williams,https://247sports.com/player/e-j-williams-46049986/high-school,WR ,0.9685," Central (Phenix City, AL)                    ",,AL
+120,Mitchell Mayes,https://247sports.com/player/mitchell-mayes-46051711/high-school,OG ,0.9348," Leesville Road (Raleigh, NC)                    ",,NC
+121,Sergio Allen,https://247sports.com/player/sergio-allen-46042574/high-school,ILB ,0.9183," Peach County (Fort Valley, GA)                    ",,GA
+122,RJ Mickens,https://247sports.com/player/rj-mickens-91595/high-school,S ,0.9181," Southlake Carroll (Southlake, TX)                    ",,TX
+123,Kevin Swint,https://247sports.com/player/kevin-swint-46036484/high-school,ILB ,0.9072," Carrollton (Carrollton, GA)                    ",,GA
+124,Bryn Tucker,https://247sports.com/player/bryn-tucker-45572456/high-school,OG ,0.9015," Knoxville Catholic (Knoxville, TN)                    ",,TN
+125,Sage Ennis,https://247sports.com/player/sage-ennis-46081869/high-school,TE ,0.8722," Lincoln (Tallahassee, FL)                    ",,FL
+126,Tyler Venables,https://247sports.com/player/tyler-venables-94711/high-school,S ,0.8498," D W Daniel (Central, SC)                    ",,SC
+136,Clark Phillips III,https://247sports.com/player/clark-phillips-iii-46038933/high-school,CB ,0.9747," La Habra (La Habra, CA)                    ",,CA
+137,Ben Renfro,https://247sports.com/player/ben-renfro-46085131/high-school,S ,0.8389," Magnolia (Magnolia, TX)    ",,TX
+183,Ky Thomas,https://247sports.com/player/ky-thomas-46035350/high-school,RB ,0.8863," Topeka (Topeka, KS)                    ",,KS
+184,Jaqwondis Burns,https://247sports.com/player/jaqwondis-burns-46078938/high-school,OLB ,0.8709," IMG Academy (Bradenton, FL)                    ",,FL
+185,Gage Keys,https://247sports.com/player/gage-keys-46059285/high-school,SDE ,0.8606," Hilliard Davidson (Hilliard, OH)                    ",,OH
+186,Abner Dubar,https://247sports.com/player/abner-dubar-46055373/high-school,S ,0.8531," Anna (Anna, TX)                    ",,TX
+187,Cody Lindenberg,https://247sports.com/player/cody-lindenberg-46083547/high-school,OLB ,0.8490000000000001," Anoka Senior (Anoka, MN)                    ",,MN
+188,Tyrell Lawrence,https://247sports.com/player/tyrell-lawrence-46082453/high-school,OG ,0.8389," Clearwater Academy International (Clearwater, FL)                    ",,FL
+189,Melle Kreuder,https://247sports.com/player/melle-kreuder-46085413/high-school,SDE ,0.8355," Germany (Germany, GERM)                    ",,GE
+190,Mark Crawford,https://247sports.com/player/mark-crawford-46097530/high-school,P ,0.7996," Australia (Australia, AUST)                 ",,AU
+257,Kobe Wilson,https://247sports.com/player/kobe-wilson-46077079/high-school,ILB ,0.8540000000000001," Parkview (Lilburn, GA)    ",,GA
+258,Sam Davis,https://247sports.com/player/sam-davis-46076633/high-school,OG ,0.8444," Geneva (Geneva, OH)    ",,OH
+259,Darian Varner,https://247sports.com/player/darian-varner-46084522/high-school,DT ,0.8395," Maury (Norfolk, VA)    ",,VA
+260,Miles Zietek,https://247sports.com/player/miles-zietek-46083166/high-school,OT ,0.8281," Germany (Germany, GERM)    ",,GE
+261,Nick Bagashvili,https://247sports.com/player/nick-bagashvili-46080390/high-school,DT ,0.8263," Tottenville (Staten Island, NY)    ",,NY
+262,Trey Blair,https://247sports.com/player/trey-blair-46079296/high-school,ATH ,0.8236," Haverford (Havertown, PA)    ",,PA
+263,Muheem McCargo,https://247sports.com/player/muheem-mccargo-46052302/high-school,RB ,0.8212," Woodrow Wilson (Camden, NJ)    ",,NJ
+276,Hayden Burton,https://247sports.com/player/hayden-burton-46038961/high-school,OT ,0.8290000000000001," Mississippi Gulf Coast C.C. (Perkinston, MS)    ",,MS
+277,Jamie Sheriff,https://247sports.com/player/jamie-sheriff-46086470/high-school,SDE ,0.8263," Mississippi Gulf Coast C.C. (Perkinston, MS)    ",,MS
+278,D'ezekius Chapman,https://247sports.com/player/dezekius-chapman-46084235/high-school,DT ,0.8156," Pearl River C.C. (Poplarville, MS)    ",,MS
+279,CJ Thompson,https://247sports.com/player/cj-thompson-92838/high-school,S ,0.8125," Northeastern Oklahoma A&M (Miami, OK)    ",,OK
+280,Darrell Luter,https://247sports.com/player/darrell-luter-46085644/high-school,CB ,0.8075," Pearl River C.C. (Poplarville, MS)  ",,MS
+281,Dewayne Betts,https://247sports.com/player/dewayne-betts-90360/high-school,ATH ,0.8075," Coahoma C.C. (Clarksdale, MS)      ",,MS
+282,Andrew McMillan,https://247sports.com/player/andrew-mcmillan-46085517/high-school,OT ,0.8072," Long Beach  (Long Beach, MS)    ",,MS
+283,Chance Lovertich,https://247sports.com/player/chance-lovertich-46096510/high-school,PRO ,0.8025," Mississippi Gulf Coast C.C. (Perkinston, MS)    ",,MS
+284,Quentin Wilfawn,https://247sports.com/player/quentin-wilfawn-89818/high-school,ILB ,0.8," Northwest Mississippi C.C. (Senatobia, MS)    ",,MS
+301,Myles Slusher,https://247sports.com/player/myles-slusher-46048503/high-school,S ,0.9282," Broken Arrow (Broken Arrow, OK)                    ",,OK
+302,Darin Turner,https://247sports.com/player/darin-turner-46040571/high-school,WR ,0.9189," Memphis Central (Memphis, TN)    ",,TN
+303,Blayne Toll,https://247sports.com/player/blayne-toll-46048468/high-school,SDE ,0.8827," Hazen (Hazen, AR)    ",,AR
+304,Kelin Burrle,https://247sports.com/player/kelin-burrle-46052138/high-school,OLB ,0.8633," Helen Cox (Harvey, LA)    ",,LA
+305,Julius Coates,https://247sports.com/player/julius-coates-46094042/high-school,SDE ,0.8528," East Mississippi C.C. (Scooba, MS)    ",,MS
+322,Myles Murao,https://247sports.com/player/myles-murao-46048409/high-school,OC ,0.9499," Mater Dei (Santa Ana, CA)    ",,CA
+323,Gaard Memmelaar,https://247sports.com/player/gaard-memmelaar-46056981/high-school,OG ,0.8763," Middleton (Middleton, ID)  ",,ID
+324,Triston Brown,https://247sports.com/player/triston-brown-46081414/high-school,P ,0.7989," Mt. San Antonio College (Walnut, CA)  ",,CA
+411,Mitch Griffis,https://247sports.com/player/mitch-griffis-46049005/high-school,DUAL ,0.871," Broad Run (Ashburn, VA)  ",,VA
+412,George Sell,https://247sports.com/player/george-sell-46082463/high-school,OT ,0.8533," Kenston (Chagrin Falls, OH)    ",,OH
+413,Ahmani Marshall,https://247sports.com/player/ahmani-marshall-46056899/high-school,RB ,0.851," East Forsyth (Kernersville, NC)    ",,NC
+414,Quinton Cooley,https://247sports.com/player/quinton-cooley-46083781/high-school,RB ,0.8490000000000001," Southern Nash (Bailey, NC)  ",,NC
+415,Jahmal Banks,https://247sports.com/player/jahmal-banks-46045966/high-school,WR ,0.8464," St. Frances Academy (Baltimore, MD)    ",,MD
+416,Malik Puryear,https://247sports.com/player/malik-puryear-46078799/high-school,SDE ,0.8390000000000001," High Point Christian Academy (High Point, NC)    ",,NC
+417,James Ash,https://247sports.com/player/james-ash-46055320/high-school,DT ,0.8382," Chamberlain (Tampa, FL)    ",,FL
+418,Michael Frogge,https://247sports.com/player/michael-frogge-46057242/high-school,TE ,0.8328," Northern Guilford (Greensboro, NC)    ",,NC
+459,Derrell Bailey Jr.,https://247sports.com/player/derrell-bailey-jr-46059447/high-school,SDE ,0.8484," Greenback School (Greenback, TN)      ",,TN
+460,Marco Lee,https://247sports.com/player/marco-lee-46094681/high-school,RB ,0.8467," Coffeyville C.C. (Coffeyville, KS)   ",,KS
+461,Parker Clements,https://247sports.com/player/parker-clements-46081394/high-school,OT ,0.8431," Lugoff-Elgin (Lugoff, SC)      ",,SC
+563,Theo Johnson,https://247sports.com/player/theo-johnson-46056623/high-school,TE ,0.9667," Holy Names High School (Windsor, ON)                    ",,ON
+564,Enzo Jennings,https://247sports.com/player/enzo-jennings-91737/high-school,S ,0.9381," Oak Park (Oak Park, MI)                    ",,MI
+565,Caziah Holmes,https://247sports.com/player/caziah-holmes-46042112/high-school,APB ,0.9237," Cocoa (Cocoa, FL)                    ",,FL
+566,Cole Brevard,https://247sports.com/player/cole-brevard-46049014/high-school,DT ,0.9207," Carmel (Carmel, IN)                    ",,IN
+567,KeAndre Lambert,https://247sports.com/player/keandre-lambert-46052214/high-school,WR ,0.9201," Maury (Norfolk, VA)                    ",,VA
+568,Jaden Dottin,https://247sports.com/player/jaden-dottin-46042630/high-school,WR ,0.8999," Suffield Academy (Suffield, CT)                    ",,CT
+569,Joseph Johnson,https://247sports.com/player/joseph-johnson-46081257/high-school,CB ,0.8884," Life Christian Academy (Colonial Heights, VA)                    ",,VA
+570,Tyler Elsdon,https://247sports.com/player/tyler-elsdon-46079301/high-school,ILB ,0.8748," North Schuylkill (Ashland, PA)                    ",,PA
+571,Bryce Mostella,https://247sports.com/player/bryce-mostella-46051468/high-school,WDE ,0.8715," East Kentwood (Grand Rapids, MI)                    ",,MI
+572,Fatorma Mulbah,https://247sports.com/player/fatorma-mulbah-46083390/high-school,DT ,0.8614," Susquehanna Twp (Harrisburg, PA)                    ",,PA
+573,Nick Dawkins,https://247sports.com/player/nick-dawkins-46057948/high-school,OG ,0.8586," Parkland (Allentown, PA)                    ",,PA
+611,Jo'Quavious Marks,https://247sports.com/player/joquavious-marks-46041108/high-school,RB ,0.9371," Carver (Atlanta, GA)    ",,GA
+612,Jordan Davis,https://247sports.com/player/jordan-davis-91082/high-school,WDE ,0.9034," Copiah-Lincoln C.C. (Wesson, MS)                    ",,MS
+613,Malik Heath,https://247sports.com/player/malik-heath-85252/high-school,WR ,0.8913," Copiah-Lincoln C.C. (Wesson, MS)                    ",,MS
+614,Janari Dean,https://247sports.com/player/janari-dean-46046825/high-school,S ,0.8809," South Panola (Batesville, MS)    ",,MS
+615,Rodney Groce Jr.,https://247sports.com/player/rodney-groce-jr-46051888/high-school,ILB ,0.8742," Pleasant Grove  (Pleasant Grove, AL)      ",,AL
+616,Tyrus Wheat,https://247sports.com/player/tyrus-wheat-46041869/high-school,ILB ,0.8722," Copiah-Lincoln C.C. (Wesson, MS)    ",,MS
+617,Will Rogers,https://247sports.com/player/will-rogers-46052851/high-school,PRO ,0.8688," Brandon (Brandon, MS)      ",,MS
+618,Cameron Threatt,https://247sports.com/player/cameron-threatt-46056657/high-school,CB ,0.8618," Lewisburg (Olive Branch, MS)      ",,MS
+619,Tre Lawson,https://247sports.com/player/tre-lawson-88156/high-school,SDE ,0.8594," Mississippi Gulf Coast C.C. (Perkinston, MS)    ",,MS
+665,Bryan Robinson,https://247sports.com/player/bryan-robinson-46047673/high-school,WR ,0.9265," Palm Beach Central (West Palm Beach, FL)                    ",,FL
+666,Stephen Dix Jr.,https://247sports.com/player/stephen-dix-jr-46039535/high-school,OLB ,0.9125," Dr. Phillips (Orlando, FL)                 ",,FL
+667,Ja'Khi Douglas,https://247sports.com/player/jakhi-douglas-46050903/high-school,WR ,0.9012," Terrebonne (Houma, LA)                    ",,LA
+668,Josh Griffis,https://247sports.com/player/josh-griffis-46048872/high-school,WDE ,0.8729," IMG Academy (Bradenton, FL)                    ",,FL
+669,Tate Rodemaker,https://247sports.com/player/tate-rodemaker-46052628/high-school,PRO ,0.8681," Valdosta (Valdosta, GA)                    ",,GA
+670,Zane Herring,https://247sports.com/player/zane-herring-46051859/high-school,OG ,0.8621," Madison County (Madison, FL)                    ",,FL
+671,Carter Boatwright,https://247sports.com/player/carter-boatwright-46085547/high-school,TE ,0.8559," Colquitt County (Moultrie, GA)                    ",,GA
+672,Alex Mastromanno,https://247sports.com/player/alex-mastromanno-46097539/high-school,P ,0.7885," Brighton Grammar School (Melbourne, VC)                 ",,VC
+690,Mikele Colasurdo,https://247sports.com/player/mikele-colasurdo-46055358/high-school,PRO ,0.8294," Chapman (Inman, SC)      ",,SC
+691,Jalen Tate,https://247sports.com/player/jalen-tate-46058829/high-school,S ,0.8247," Greenville (Greenville, SC)      ",,SC
+692,Jonathan Brown,https://247sports.com/player/jonathan-brown-46084693/high-school,OT ,0.8174," T L Hanna (Anderson, SC)      ",,SC
+693,Kris Byrd,https://247sports.com/player/kris-byrd-46094266/high-school,TE ,0.8098," Byrnes (Duncan, SC)      ",,SC
+806,Ruben Hyppolite II,https://247sports.com/player/ruben-hyppolite-ii-46051515/high-school,OLB ,0.9089," McArthur (Hollywood, FL)                    ",,FL
+807,Osita Smith,https://247sports.com/player/osita-smith-46054067/high-school,S ,0.8809999999999999," Milford Academy (Milford, CT)    ",,CT
+808,Deajaun McDougle,https://247sports.com/player/deajaun-mcdougle-45572389/high-school,WR ,0.871," Deerfield Beach (Deerfield Beach, FL)                    ",,FL
+809,Beau Brade,https://247sports.com/player/beau-brade-46080073/high-school,S ,0.8594," River Hill (Clarksville, MD)    ",,MD
+810,Jakorian Bennett,https://247sports.com/player/jakorian-bennett-46084582/high-school,CB ,0.8581," Hutchinson C.C. (Hutchinson, KS)    ",,KS
+811,Frankie Burgess,https://247sports.com/player/frankie-burgess-46094339/high-school,OLB ,0.8478," Pahokee (Pahokee, FL)    ",,FL
+812,Devyn King,https://247sports.com/player/devyn-king-46042489/high-school,CB ,0.8431," Junipero Serra (Gardena, CA)                    ",,CA
+813,Ja'Khi Green,https://247sports.com/player/jakhi-green-46080790/high-school,OT ,0.8385," St. Frances Academy (Baltimore, MD)                    ",,MD
+814,Shane Mosley,https://247sports.com/player/shane-mosley-46078932/high-school,CB ,0.8376," Haverford (Havertown, PA)                    ",,PA
+815,TJ Kautai,https://247sports.com/player/tj-kautai-46086133/high-school,ILB ,0.8241," Independence C.C. (Independence, KS)                    ",,KS
+816,Johari Branch,https://247sports.com/player/johari-branch-46045355/high-school,OG ,0.8236," Independence C.C. (Independence, KS)    ",,KS
+901,Gary Bryant Jr.,https://247sports.com/player/gary-bryant-jr-46041350/high-school,WR ,0.9769," Centennial (Corona, CA)                    ",,CA
+902,Josh Jackson,https://247sports.com/player/josh-jackson-46048069/high-school,WR ,0.883," Narbonne (Harbor City, CA)                    ",,CA
+903,Kobe Pepe,https://247sports.com/player/kobe-pepe-46047201/high-school,DT ,0.8734," St. John Bosco (Bellflower, CA)                    ",,CA
+904,Parker Lewis,https://247sports.com/player/parker-lewis-46057232/high-school,K ,0.8183," Saguaro (Scottsdale, AZ)                 ",,AZ
+914,Daniyel Ngata,https://247sports.com/player/daniyel-ngata-46050694/high-school,APB ,0.9468," Folsom (Folsom, CA)                    ",,CA
+915,Jordan Banks,https://247sports.com/player/jordan-banks-46051934/high-school,OLB ,0.9095," Narbonne (Harbor City, CA)                    ",,CA
+916,DeaMonte Trayanum,https://247sports.com/player/deamonte-trayanum-46050397/high-school,RB ,0.9017," Archbishop Hoban (Akron, OH)                    ",,OH
+917,Caleb McCullough,https://247sports.com/player/caleb-mccullough-46079855/high-school,ILB ,0.8747," Pacifica (Oxnard, CA)                    ",,CA
+918,T Lee,https://247sports.com/player/t-lee-46040524/high-school,ATH ,0.8633," Buford (Buford, GA)                    ",,GA
+919,Macen Williams,https://247sports.com/player/macen-williams-46037867/high-school,CB ,0.8633," Narbonne (Harbor City, CA)                    ",,CA
+920,Ben Bray,https://247sports.com/player/ben-bray-46081381/high-school,OT ,0.8431," Red Mountain (Mesa, AZ)                    ",,AZ
+921,Jacob Nunez,https://247sports.com/player/jacob-nunez-46053380/high-school,OG ,0.841," Lompoc (Lompoc, CA)                    ",,CA
+979,Will Swanson,https://247sports.com/player/will-swanson-46085221/high-school,TE ,0.8593," Papillion-La Vista South (Papillion, NE)                    ",,NE
+980,Will Howard,https://247sports.com/player/will-howard-46056477/high-school,PRO ,0.8586," Downingtown West (Downingtown, PA)                    ",,PA
+981,Tee Denson,https://247sports.com/player/tee-denson-46049181/high-school,CB ,0.8585," Cedar Grove (Ellenwood, GA)    ",,GA
+982,Carver Willis,https://247sports.com/player/carver-willis-46085599/high-school,OT ,0.8539," Durango (Durango, CO)                 ",,CO
+983,TJ Smith,https://247sports.com/player/tj-smith-46047495/high-school,CB ,0.8484," McEachern (Powder Springs, GA)                    ",,GA
+984,DeMarrquese Hayes,https://247sports.com/player/demarrquese-hayes-46081978/high-school,OLB ,0.8431," La Vega (Waco, TX)      ",,TX
+985,Sam Shields,https://247sports.com/player/sam-shields-46081717/high-school,OG ,0.841," Manhattan (Manhattan, KS)    ",,KS
+986,Derick Newton,https://247sports.com/player/derick-newton-46041486/high-school,DT ,0.8398," Butler C.C. (El Dorado, KS)                  ",,KS
+987,Dawson Delforge,https://247sports.com/player/dawson-delforge-46094812/high-school,OG ,0.8325," Butler C.C. (El Dorado, KS)                    ",,KS
+988,Christian Moore,https://247sports.com/player/christian-moore-46081506/high-school,TE ,0.8193," Huntington Beach (Huntington Beach, CA)                    ",,CA
+1006,Tank Bigsby,https://247sports.com/player/tank-bigsby-46039679/high-school,RB ,0.9817," Callaway (Hogansville, GA)                    ",,GA
+1007,Zykeivous Walker,https://247sports.com/player/zykeivous-walker-46052973/high-school,SDE ,0.9651," Schley County (Ellaville, GA)                    ",,GA
+1008,Kobe Hudson,https://247sports.com/player/kobe-hudson-46037859/high-school,WR ,0.9513," Troup County (Lagrange, GA)                    ",,GA
+1009,Ladarius Tennison,https://247sports.com/player/ladarius-tennison-46039703/high-school,ATH ,0.9287," Rockledge (ROCKLEDGE, FL)                    ",,FL
+1010,Chris Thompson Jr.,https://247sports.com/player/chris-thompson-jr-46041974/high-school,S ,0.9216," Duncanville (Duncanville, TX)                    ",,TX
+1011,Romello Height,https://247sports.com/player/romello-height-46080260/high-school,OLB ,0.8884," Dublin (Dublin, GA)                    ",,GA
+1012,Kilian Zierer,https://247sports.com/player/kilian-zierer-46083297/high-school,OT ,0.8818," College of the Canyons (Valencia, CA)                    ",,CA
+1013,Avery Jernigan,https://247sports.com/player/avery-jernigan-46051590/high-school,OG ,0.8797," Pierce County (Blackshear, GA)                    ",,GA
+1014,Tate Johnson,https://247sports.com/player/tate-johnson-46050150/high-school,OG ,0.8784," Callaway (Hogansville, GA)                    ",,GA
+1015,Chayil Garnett,https://247sports.com/player/chayil-garnett-46052903/high-school,DUAL ,0.8643," Lakeland (Lakeland, FL)                    ",,FL
+1051,DJ Smith,https://247sports.com/player/dj-smith-87631/high-school,APB ,0.8426," Lone Star (Frisco, TX)    ",,TX
+1072,Andrew Raym,https://247sports.com/player/andrew-raym-46042593/high-school,OG ,0.9577," Broken Arrow (Broken Arrow, OK)    ",,OK
+1073,Seth McGowan,https://247sports.com/player/seth-mcgowan-46042960/high-school,RB ,0.9382," Poteet (Mesquite, TX)    ",,TX
+1074,Marvin Mims,https://247sports.com/player/marvin-mims-46049311/high-school,WR ,0.9288," Lone Star (Frisco, TX)    ",,TX
+1075,Bryson Washington,https://247sports.com/player/bryson-washington-46049451/high-school,S ,0.9188," C.E. King (Houston, TX)    ",,TX
+1076,Perrion Winfrey,https://247sports.com/player/perrion-winfrey-46039840/high-school,DT ,0.9162," Iowa Western C.C. (Council Bluffs, IA)    ",,IA
+1077,Michael Henderson,https://247sports.com/player/michael-henderson-46037341/high-school,ATH ,0.9006," Ranchview (Carrollton, TX)    ",,TX
+1078,Shane Whitter,https://247sports.com/player/shane-whitter-46055031/high-school,ILB ,0.8887," Walter M Williams (Burlington, NC)    ",,NC
+1079,DJ Graham,https://247sports.com/player/dj-graham-46037403/high-school,ATH ,0.8817," Keller Central (Keller, TX)    ",,TX
+1080,Josh Ellison,https://247sports.com/player/josh-ellison-46037856/high-school,DT ,0.8809999999999999," Blinn College (Brenham, TX)                    ",,TX
+1081,Noah Nelson,https://247sports.com/player/noah-nelson-46047383/high-school,OT ,0.8783," Williams Field (Gilbert, AZ)    ",,AZ
+1114,Tyreem Powell,https://247sports.com/player/tyreem-powell-46054982/high-school,ATH ,0.8627," Vineland South (Vineland, NJ)                    ",,NJ
+1115,Malachi Melton,https://247sports.com/player/malachi-melton-46047378/high-school,CB ,0.8572," Cedar Creek (Egg Harbor City, NJ)    ",,NJ
+1116,Evan Simon,https://247sports.com/player/evan-simon-46050571/high-school,PRO ,0.8539," Manheim Central (Manheim, PA)      ",,PA
+1117,Wesley Bailey,https://247sports.com/player/wesley-bailey-46053643/high-school,WDE ,0.8517," Clearwater Academy International (Clearwater, FL)                 ",,FL
+1118,Robert Longerbeam,https://247sports.com/player/robert-longerbeam-46083367/high-school,ATH ,0.8457," T. C. Williams (Alexandria, VA)    ",,VA
+1119,Cedrice Paillant,https://247sports.com/player/cedrice-paillant-46097220/high-school,OT ,0.8445," Monroe College (New Rochelle, NY)    ",,NY
+1120,Victor Konopka,https://247sports.com/player/victor-konopka-46086870/high-school,SDE ,0.8376," Blair Academy (Blairstown, NJ)    ",,NJ
+1121,Tunde Fatukasi,https://247sports.com/player/tunde-fatukasi-46083819/high-school,OG ,0.8349," Erasmus Hall (Brooklyn, NY)    ",,NY
+1134,Brendon Lewis,https://247sports.com/player/brendon-lewis-46036862/high-school,DUAL ,0.8847," Melissa (Melissa, TX)                    ",,TX
+1135,Jake Wray,https://247sports.com/player/jake-wray-46036881/high-school,OT ,0.8643," Marietta (Marietta, GA)                    ",,GA
+1136,Carson Lee,https://247sports.com/player/carson-lee-46052719/high-school,OC ,0.8558," Cherry Creek (Englewood, CO)                    ",,CO
+1137,Guy Thomas,https://247sports.com/player/guy-thomas-80411/high-school,OLB ,0.8540000000000001," Coahoma C.C. (Clarksdale, MS)                    ",,MS
+1138,Alvin Williams,https://247sports.com/player/alvin-williams-46051892/high-school,WDE ,0.8518," Cedar Grove (Ellenwood, GA)                    ",,GA
+1139,Justin Jackson,https://247sports.com/player/justin-jackson-46039931/high-school,SDE ,0.8440000000000001," Northwest Mississippi C.C. (Senatobia, MS)                    ",,MS
+1140,Jaylen Striker,https://247sports.com/player/jaylen-striker-46086717/high-school,CB ,0.8378," Independence C.C. (Independence, KS)                    ",,KS
+1141,Josh Watts,https://247sports.com/player/josh-watts-46093575/high-school,P ,0.8197," ProKick Australia (Australia, AUST)                    ",,AU
+1158,Shane Illingworth,https://247sports.com/player/shane-illingworth-46047021/high-school,PRO ,0.9297," Norco (Norco, CA)    ",,CA
+1159,Eli Russ,https://247sports.com/player/eli-russ-46051668/high-school,OG ,0.8722," Plainview (Ardmore, OK)    ",,OK
+1160,Quinton Stewart,https://247sports.com/player/quinton-stewart-46083717/high-school,TE ,0.8688," Salina Central (Salina, KS)    ",,KS
+1161,Monroe Mills,https://247sports.com/player/monroe-mills-46057059/high-school,OT ,0.8377," Father Tolton (Columbia, MO)    ",,MO
+1162,Tyren Irby,https://247sports.com/player/tyren-irby-46093559/high-school,WDE ,0.8316," Northwest Mississippi C.C. (Senatobia, MS)  ",,MS
+1163,Nicolas Session,https://247sports.com/player/nicolas-session-46054063/high-school,S ,0.8282," East (Salt Lake City, UT)                  ",,UT
+1211,Turner Corcoran,https://247sports.com/player/turner-corcoran-46054132/high-school,OT ,0.9751," Lawrence Free State (Lawrence, KS)    ",,KS
+1212,Henry Gray,https://247sports.com/player/henry-gray-46051388/high-school,S ,0.9064," Miami Central (Miami, FL)    ",,FL
+1213,Jaiden Francois,https://247sports.com/player/jaiden-francois-46037035/high-school,S ,0.9047," South Dade (Homestead, FL)                    ",,FL
+1214,Logan Smothers,https://247sports.com/player/logan-smothers-46051967/high-school,DUAL ,0.8976," Muscle Shoals  (Muscle Shoals, AL)    ",,AL
+1215,Alante Brown,https://247sports.com/player/alante-brown-46041257/high-school,WR ,0.8897," St. Thomas More (Prep) (Oakdale, CT)                    ",,CT
+1216,Blaise Gunnerson,https://247sports.com/player/blaise-gunnerson-46056665/high-school,SDE ,0.8801," Kuemper Catholic School System (Carroll, IA)    ",,IA
+1217,Eteva Mauga-Clements,https://247sports.com/player/eteva-mauga-clements-46097169/high-school,OLB ,0.8688," Diablo Valley College (Pleasant Hill, CA)    ",,CA
+1218,Jordon Riley,https://247sports.com/player/jordon-riley-75571/high-school,SDE ,0.8524," Garden City C.C.  (Garden City, KS)    ",,KS
+1219,Isaac Gifford,https://247sports.com/player/isaac-gifford-46051030/high-school,S ,0.8434," Lincoln Southeast (Lincoln, NE)    ",,NE
+1220,Tamon Lynum,https://247sports.com/player/tamon-lynum-46082028/high-school,CB ,0.8375," Evans (Orlando, FL)    ",,FL
+1235,Elelyon Noa,https://247sports.com/player/elelyon-noa-46054046/high-school,RB ,0.8399," Helix (La Mesa, CA)                 ",,CA
+1236,Xavion Steele,https://247sports.com/player/xavion-steele-46079398/high-school,CB ,0.8238," Fullerton College (Fullerton, CA)                    ",,CA
+1237,James Hansen,https://247sports.com/player/james-hansen-46097225/high-school,WDE ,0.7683," Riverside C.C. (Riverside, CA)                ",,CA
+1238,Stephen Kotsanlee,https://247sports.com/player/stephen-kotsanlee-46093896/high-school,P ,0.7396," ProKick Australia (Australia, AUST)                 ",,AU
+1271,Gregory Brown,https://247sports.com/player/gregory-brown-46094642/high-school,OG ,0.8072," Shadow Creek (Pearland, TX)    ",,TX
+1272,Isaak Gutierrez,https://247sports.com/player/isaak-gutierrez-46053747/high-school,OG ,0.7912," Butte College (Oroville, CA)   ",,CA
+1273,Dion Hunter,https://247sports.com/player/dion-hunter-46099346/high-school,OLB ,0.7697," Cleveland (Rio Rancho, NM)   ",,NM
+1293,Braiden McGregor,https://247sports.com/player/braiden-mcgregor-46054251/high-school,SDE ,0.9472," Port Huron Northern (Port Huron, MI)                    ",,MI
+1294,Blake Corum,https://247sports.com/player/blake-corum-92992/high-school,RB ,0.9423," St. Frances Academy (Baltimore, MD)                    ",,MD
+1295,Andre Seldon,https://247sports.com/player/andre-seldon-93977/high-school,CB ,0.93," Belleville (Belleville, MI)                    ",,MI
+1296,Makari Paige,https://247sports.com/player/makari-paige-46048590/high-school,S ,0.9109999999999999," West Bloomfield (West Bloomfield, MI)                  ",,MI
+1297,Zak Zinter,https://247sports.com/player/zak-zinter-46056669/high-school,OG ,0.9065," Buckingham Browne & Nichols School (Cambridge, MA)                    ",,MA
+1298,Nikhai Hill-Green,https://247sports.com/player/nikhai-hill-green-46051396/high-school,OLB ,0.8884," St. Frances Academy (Baltimore, MD)                    ",,MD
+1299,William Mohan,https://247sports.com/player/william-mohan-89135/high-school,ATH ,0.8816," Erasmus Hall (Brooklyn, NY)                    ",,NY
+1300,Aaron Lewis,https://247sports.com/player/aaron-lewis-46059082/high-school,SDE ,0.8809999999999999," Williamstown (Williamstown, NJ)                    ",,NJ
+1338,Jordan Addison,https://247sports.com/player/jordan-addison-46057163/high-school,ATH ,0.9045," Tuscarora (Frederick, MD)    ",,MD
+1339,Israel Abanikanda,https://247sports.com/player/israel-abanikanda-46041602/high-school,RB ,0.8847," Abraham Lincoln (Brooklyn, NY)                  ",,NY
+1340,Aydin Henningham,https://247sports.com/player/aydin-henningham-46037227/high-school,WR ,0.8662," Deerfield Beach (Deerfield Beach, FL)                  ",,FL
+1341,Solomon DeShields,https://247sports.com/player/solomon-deshields-46051020/high-school,OLB ,0.8538," Millville (Millville, NJ)                  ",,NJ
+1342,Buddy Mack,https://247sports.com/player/buddy-mack-46059354/high-school,S ,0.8497," Byrnes (Duncan, SC)                ",,SC
+1356,Damarjhe Lewis,https://247sports.com/player/damarjhe-lewis-46049619/high-school,DT ,0.8668," Griffin (Griffin, GA)                    ",,GA
+1357,Caleb Murphy,https://247sports.com/player/caleb-murphy-46080444/high-school,WDE ,0.8559," West Washington (Campbellsburg, IN)                    ",,IN
+1358,Tim Baldwin Jr.,https://247sports.com/player/tim-baldwin-jr-46049635/high-school,RB ,0.8541," Patriot (Nokesville, VA)                    ",,VA
+1359,Dexter Williams II,https://247sports.com/player/dexter-williams-ii-46084717/high-school,DUAL ,0.8511," Mount De Sales Academy (Macon, GA)                    ",,GA
+1360,Luke Wiginton,https://247sports.com/player/luke-wiginton-46076727/high-school,OT ,0.8451," Bishop Dwenger (Fort Wayne, IN)                    ",,IN
+1361,Luke Haggard,https://247sports.com/player/luke-haggard-46084986/high-school,OT ,0.8445," Santa Rosa J.C. (Santa Rosa, CA)                    ",,CA
+1362,Ty Wise,https://247sports.com/player/ty-wise-46052927/high-school,OLB ,0.8423," Carmel (Carmel, IN)                    ",,IN
+1363,Cameron Knight,https://247sports.com/player/cameron-knight-46058302/high-school,OG ,0.8167," Noblesville (Noblesville, IN)                    ",,IN
+1375,Latarie Kinsler,https://247sports.com/player/latarie-kinsler-46047566/high-school,WDE ,0.8675," Pahokee (Pahokee, FL)                    ",,FL
+1376,Stefon Thompson,https://247sports.com/player/stefon-thompson-46057247/high-school,ILB ,0.8497," Zebulon B. Vance (Charlotte, NC)                    ",,NC
+1377,Ja'Vontae Williams,https://247sports.com/player/javontae-williams-46056520/high-school,WR ,0.8484," Glades Central (Belle Glade, FL)                 ",,FL
+1397,Harrison Bailey,https://247sports.com/player/harrison-bailey-83301/high-school,PRO ,0.9558," Marietta (Marietta, GA)                    ",,GA
+1398,Dominic Bailey,https://247sports.com/player/dominic-bailey-46053621/high-school,DT ,0.9182," St. Frances Academy (Baltimore, MD)                    ",,MD
+1399,Cooper Mays,https://247sports.com/player/cooper-mays-45573208/high-school,OC ,0.9002," Knoxville Catholic (Knoxville, TN)                    ",,TN
+1400,Jimmy Holiday,https://247sports.com/player/jimmy-holiday-46051110/high-school,ATH ,0.8755," Madison Central (Madison, MS)                    ",,MS
+1420,Kendall Milton,https://247sports.com/player/kendall-milton-46041050/high-school,RB ,0.9740000000000001," Buchanan (Clovis, CA)                    ",,CA
+1421,Jalen Kimber,https://247sports.com/player/jalen-kimber-46048842/high-school,CB ,0.9537," Mansfield Timberview (Arlington, TX)                    ",,TX
+1422,Major Burns,https://247sports.com/player/major-burns-46055558/high-school,S ,0.9261," Madison Prep Academy (Baton Rouge, LA)                    ",,LA
+1423,Carson Beck,https://247sports.com/player/carson-beck-46053141/high-school,PRO ,0.9098," Mandarin (Jacksonville, FL)                    ",,FL
+1424,Justin Robinson,https://247sports.com/player/justin-robinson-46058884/high-school,WR ,0.8998," Eagle's Landing Christian (Mcdonough, GA)                    ",,GA
+1425,Warren Brinson,https://247sports.com/player/warren-brinson-46057836/high-school,DT ,0.8978," IMG Academy (Bradenton, FL)                    ",,FL
+1504,Sofian Massoud,https://247sports.com/player/sofian-massoud-45572668/high-school,ATH ,0.8552," Cy Lakes (Katy, TX)                    ",,TX
+1505,Sedrick Williams,https://247sports.com/player/sedrick-williams-46080328/high-school,DT ,0.8371," Kilgore J.C. (Kilgore, TX)                    ",,TX
+1506,Jayce Rogers,https://247sports.com/player/jayce-rogers-79656/high-school,CB ,0.8353," Northwest Mississippi C.C. (Senatobia, MS)                    ",,MS
+1507,Nathaniel Dell,https://247sports.com/player/nathaniel-dell-46047995/high-school,WR ,0.8291," Independence C.C. (Independence, KS)                    ",,KS
+1508,Malik Robinson,https://247sports.com/player/malik-robinson-80018/high-school,OLB ,0.8213," Fort Scott C.C. (Fort Scott, KS)                    ",,KS
+1509,James Faminu,https://247sports.com/player/james-faminu-46086519/high-school,OT ,0.7902," London Academy (London, EN)                    ",,EN
+1510,Laine Wilkins,https://247sports.com/player/laine-wilkins-46097231/high-school,P ,," ProKick Australia (Australia, AUST)                 ",,AU
+1570,Arik Gilbert,https://247sports.com/player/arik-gilbert-94709/high-school,TE ,0.9972," Marietta (Marietta, GA)                    ",,GA
+1571,Elias Ricks,https://247sports.com/player/elias-ricks-46042180/high-school,CB ,0.9928," IMG Academy (Bradenton, FL)                    ",,FL
+1572,Jordan Toles,https://247sports.com/player/jordan-toles-46050292/high-school,S ,0.965," St. Frances Academy (Baltimore, MD)                    ",,MD
+1573,BJ Ojulari,https://247sports.com/player/bj-ojulari-46040436/high-school,WDE ,0.9636," Marietta (Marietta, GA)                    ",,GA
+1574,Max Johnson,https://247sports.com/player/max-johnson-89241/high-school,PRO ,0.909," Oconee County (Watkinsville, GA)                    ",,GA
+1575,Ali Gaye,https://247sports.com/player/ali-gaye-89377/high-school,SDE ,0.883," Garden City C.C.  (Garden City, KS)                    ",,KS
+1576,TJ Finley,https://247sports.com/player/tj-finley-46040985/high-school,PRO ,0.8784," Ponchatoula (Ponchatoula, LA)                    ",,LA
+1613,Bryce Young,https://247sports.com/player/bryce-young-93127/high-school,DUAL ,0.9994," Mater Dei (Santa Ana, CA)                    ",,CA
+1614,Will Anderson,https://247sports.com/player/will-anderson-46053865/high-school,WDE ,0.9913," Dutchtown (Hampton, GA)                    ",,GA
+1615,Chris Braswell,https://247sports.com/player/chris-braswell-46049102/high-school,WDE ,0.9911," St. Frances Academy (Baltimore, MD)                    ",,MD
+1616,Drew Sanders,https://247sports.com/player/drew-sanders-45572383/high-school,ATH ,0.9897," Ryan (Denton, TX)                    ",,TX
+1617,Demouy Kennedy,https://247sports.com/player/demouy-kennedy-46054124/high-school,ILB ,0.982," Theodore (Theodore, AL)                    ",,AL
+1618,Jase McClellan,https://247sports.com/player/jase-mcclellan-46036686/high-school,RB ,0.9757," Aledo (Aledo, TX)                    ",,TX
+1619,Roydell Williams,https://247sports.com/player/roydell-williams-46050297/high-school,RB ,0.9653," Hueytown  (Hueytown, AL)                    ",,AL
+1620,Thaiu Jones-Bell,https://247sports.com/player/thaiu-jones-bell-46047033/high-school,WR ,0.9359," Miami Carol City (Opa Locka, FL)                    ",,FL
+1621,Jackson Bratton,https://247sports.com/player/jackson-bratton-46051850/high-school,ILB ,0.932," Muscle Shoals  (Muscle Shoals, AL)                    ",,AL
+1622,Traeshon Holden,https://247sports.com/player/traeshon-holden-46052218/high-school,WR ,0.9136," Narbonne (Harbor City, CA)                    ",,CA
+1623,Jahquez Robinson,https://247sports.com/player/jahquez-robinson-46047835/high-school,CB ,0.9002," Sandalwood (Jacksonville, FL)                    ",,FL
+1624,Ronald Williams,https://247sports.com/player/ronald-williams-91722/high-school,CB ,0.8904," Hutchinson C.C. (Hutchinson, KS)                    ",,KS
+1625,Seth McLaughlin,https://247sports.com/player/seth-mclaughlin-46052911/high-school,OC ,0.8802," Buford (Buford, GA)                    ",,GA
+1638,Samuel Anaele,https://247sports.com/player/samuel-anaele-46042790/high-school,SDE ,0.9046," McDougal Technical Institute (Deerfield Beach, FL)                    ",,FL
+1639,Joel Williams,https://247sports.com/player/joel-williams-46053198/high-school,ATH ,0.8923," Madison Prep Academy (Baton Rouge, LA)                    ",,LA
+1640,Jeremy Flax,https://247sports.com/player/jeremy-flax-46093812/high-school,OT ,0.8917," Independence C.C. (Independence, KS)                    ",,KS
+1641,John Young,https://247sports.com/player/john-young-46047442/high-school,OT ,0.8904," Christian Academy Of Louisville (Louisville, KY)                    ",,KY
+1642,Jutahn McClain,https://247sports.com/player/jutahn-mcclain-46052145/high-school,APB ,0.8884," Fairfield (Fairfield, OH)                    ",,OH
+1643,Deondre Buford,https://247sports.com/player/deondre-buford-46051995/high-school,OT ,0.8863," Martin Luther King (Detroit, MI)                  ",,MI
+1644,Beau Allen,https://247sports.com/player/beau-allen-46039461/high-school,PRO ,0.8791," Lexington Catholic (Lexington, KY)                    ",,KY
+1645,Octavious Oxendine,https://247sports.com/player/octavious-oxendine-46047737/high-school,DT ,0.8707," North Hardin (Radcliff, KY)                    ",,KY
+1646,Kalil Branham,https://247sports.com/player/kalil-branham-46040367/high-school,WR ,0.8689," Northland (Columbus, OH)                    ",,OH
+1647,Andru Phillips,https://247sports.com/player/andru-phillips-46056880/high-school,CB ,0.8688," Mauldin (Mauldin, SC)                    ",,SC
+1648,D'Eryk Jackson,https://247sports.com/player/deryk-jackson-46080695/high-school,ILB ,0.8519," West Laurens (Dublin, GA)                    ",,GA
+1661,Garrett Greene,https://247sports.com/player/garrett-greene-46051824/high-school,DUAL ,0.8729," Lawton Chiles (Tallahassee, FL)      ",,FL
+1662,Reese Smith,https://247sports.com/player/reese-smith-46050016/high-school,WR ,0.8592," Boyle County (Danville, KY)      ",,KY
+1663,Quay Mays,https://247sports.com/player/quay-mays-46083583/high-school,DT ,0.8589," Northwest Mississippi C.C. (Senatobia, MS)      ",,MS
+1664,Jairo Faverus,https://247sports.com/player/jairo-faverus-46080004/high-school,CB ,0.8526," Bristol Academy (Bristol, UK)      ",,UK
+1665,Jackie Matthews,https://247sports.com/player/jackie-matthews-46084229/high-school,CB ,0.8445," Mississippi Gulf Coast C.C. (Perkinston, MS)                    ",,MS
+1683,Gavin Williams,https://247sports.com/player/gavin-williams-46043167/high-school,RB ,0.8767," Dowling Catholic (West Des Moines, IA)    ",,IA
+1684,Elijah Yelverton,https://247sports.com/player/elijah-yelverton-46051912/high-school,TE ,0.8763," Trinity Christian School (Cedar Hill, TX)    ",,TX
+1685,Mason Richman,https://247sports.com/player/mason-richman-46081821/high-school,OT ,0.8727," Blue Valley (Stilwell, KS)  ",,KS
+1704,Latrell Bankston,https://247sports.com/player/latrell-bankston-46050485/high-school,DT ,0.8789," Hutchinson C.C. (Hutchinson, KS)                    ",,KS
+1705,Aidan Bouman,https://247sports.com/player/aidan-bouman-46052347/high-school,PRO ,0.8726," Buffalo Senior (Buffalo, MN)                    ",,MN
+1706,Hayden Pauls,https://247sports.com/player/hayden-pauls-46055476/high-school,OT ,0.8626," Emporia (Emporia, KS)                    ",,KS
+1707,Tyler Miller,https://247sports.com/player/tyler-miller-46054364/high-school,OT ,0.8625," Greene County (Jefferson, IA)                    ",,IA
+1708,Johnny Wilson,https://247sports.com/player/johnny-wilson-46055177/high-school,SDE ,0.8614," Park Hill (Kansas City, MO)                    ",,MO
+1709,Craig McDonald,https://247sports.com/player/craig-mcdonald-46053449/high-school,S ,0.8593," Minnehaha Academy (Minneapolis, MN)                    ",,MN
+1710,Xavier Hutchinson,https://247sports.com/player/xavier-hutchinson-46081159/high-school,WR ,0.856," Blinn College (Brenham, TX)                    ",,TX
+1711,Mason Chambers,https://247sports.com/player/mason-chambers-46081367/high-school,S ,0.8519," Samuel Clemens (Schertz, TX)                    ",,TX
+1712,Jordyn Morgan,https://247sports.com/player/jordyn-morgan-46079906/high-school,S ,0.8364," Cornerstone Christian (San Antonio, TX)                    ",,TX
+1726,Kevin Pyne,https://247sports.com/player/kevin-pyne-46036656/high-school,OT ,0.9022," Milford (Milford, MA)      ",,MA
+1727,Andre Hines Jr.,https://247sports.com/player/andre-hines-jr-46050659/high-school,RB ,0.851," Erasmus Hall (Brooklyn, NY)      ",,NY
+1728,Taji Johnson,https://247sports.com/player/taji-johnson-94433/high-school,WR ,0.8431," Marietta (Marietta, GA)      ",,GA
+1802,Tyler Bride,https://247sports.com/player/tyler-bride-46051449/high-school,ATH ,0.8282," Greater Atlanta Christian School (Norcross, GA)    ",,GA
+1885,Hudson Card,https://247sports.com/player/hudson-card-46048769/high-school,DUAL ,0.9724," Lake Travis (Austin, TX)                    ",,TX
+1886,Vernon Broughton,https://247sports.com/player/vernon-broughton-46055073/high-school,DT ,0.9477," Cy Ridge (Houston, TX)                    ",,TX
+1887,Xavion Alford,https://247sports.com/player/xavion-alford-46051445/high-school,S ,0.9371," Shadow Creek (Pearland, TX)                    ",,TX
+1888,Jerrin Thompson,https://247sports.com/player/jerrin-thompson-46050436/high-school,S ,0.9259999999999999," Lufkin (Lufkin, TX)                    ",,TX
+1889,Jake Majors,https://247sports.com/player/jake-majors-46049148/high-school,OC ,0.922," Prosper (Prosper, TX)                    ",,TX
+1890,Troy Omeire,https://247sports.com/player/troy-omeire-46051486/high-school,WR ,0.9124," Fort Bend Austin (Sugar Land, TX)                    ",,TX
+1891,Logan Parr,https://247sports.com/player/logan-parr-46051951/high-school,OG ,0.9025," O'Connor (Helotes, TX)                    ",,TX
+1892,Sawyer Goram-Welch,https://247sports.com/player/sawyer-goram-welch-46056596/high-school,DT ,0.8465," Longview (Longview, TX)                    ",,TX
+1904,James Sylvester,https://247sports.com/player/james-sylvester-46050111/high-school,WDE ,0.8975," Newton (Newton, TX)                    ",,TX
+1905,Taye McWilliams,https://247sports.com/player/taye-mcwilliams-46082573/high-school,RB ,0.8917," Lamar Consolidated (Rosenberg, TX)                    ",,TX
+1906,Mose Jeffery,https://247sports.com/player/mose-jeffery-46076913/high-school,OG ,0.8296," Kilgore J.C. (Kilgore, TX)                    ",,TX
+1921,Phifer Griffin,https://247sports.com/player/phifer-griffin-46083531/high-school,OT ,0.8424," Union Academy (Monroe, NC)    ",,NC
+1922,Blaise Sparks,https://247sports.com/player/blaise-sparks-46056108/high-school,OT ,0.8247," North Fort Myers (North Fort Myers, FL)    ",,FL
+1934,Marshawn Buchanan,https://247sports.com/player/marshawn-buchanan-46055163/high-school,ATH ,0.8559," Adelanto (Adelanto, CA)    ",,CA
+1935,Devin Kylany,https://247sports.com/player/devin-kylany-46050027/high-school,OG ,0.8356," Lake Stevens (Lake Stevens, WA)    ",,WA
+1957,Luca Diamont,https://247sports.com/player/luca-diamont-46040631/high-school,DUAL ,0.8743," Venice (Los Angeles, CA)                    ",,CA
+1958,Aeneas Peebles,https://247sports.com/player/aeneas-peebles-46082933/high-school,DT ,0.8631," Knightdale (Knightdale, NC)                    ",,NC
+1959,Malik Bowen,https://247sports.com/player/malik-bowen-46053874/high-school,WR ,0.8593," Mount Juliet (Mount Juliet, TN)                    ",,TN
+1960,Michael Reese,https://247sports.com/player/michael-reese-46058735/high-school,DT ,0.8539," Cane Ridge (Antioch, TN)                    ",,TN
+1961,Christian Hood,https://247sports.com/player/christian-hood-46052537/high-school,ILB ,0.8492," Hightower (Missouri City, TX)                    ",,TX
+1974,Jack Nelson,https://247sports.com/player/jack-nelson-46049650/high-school,OT ,0.9540000000000001," Stoughton (Stoughton, WI)      ",,WI
+1975,Nick Herbig,https://247sports.com/player/nick-herbig-46049916/high-school,OLB ,0.9359999999999999," St Louis School (Honolulu, HI)      ",,HI
+1976,Chimere Dike,https://247sports.com/player/chimere-dike-46076679/high-school,WR ,0.8727," North (Waukesha, WI)                    ",,WI
+1977,Jordan Turner,https://247sports.com/player/jordan-turner-46052690/high-school,ILB ,0.868," Farmington (Farmington, MI)                    ",,MI
+1978,Dylan Barrett,https://247sports.com/player/dylan-barrett-46052093/high-school,OG ,0.8626," St Charles East (Saint Charles, IL)    ",,IL
+1979,Preston Zachman,https://247sports.com/player/preston-zachman-46079340/high-school,OLB ,0.8431," Southern Columbia Area HS (Catawissa, PA)      ",,PA
+1980,Cade McDonald,https://247sports.com/player/cade-mcdonald-46083934/high-school,SDE ,0.8407," Hudson (Hudson, WI)                  ",,WI
+1994,DeVere Levelston,https://247sports.com/player/devere-levelston-46055310/high-school,SDE ,0.8644," Tyler J.C.  (Tyler, TX)                    ",,TX
+1995,Karl Taylor,https://247sports.com/player/karl-taylor-46080525/high-school,S ,0.8443," Lee (Midland, TX)                    ",,TX
+1996,Demetri Jordan,https://247sports.com/player/demetri-jordan-46082375/high-school,OG ,0.84," Tyler J.C.  (Tyler, TX)                    ",,TX
+1997,Mason Mastrov,https://247sports.com/player/mason-mastrov-46053811/high-school,OLB ,0.8281," Campolindo (Moraga, CA)                    ",,CA
+2009,Chantz Williams,https://247sports.com/player/chantz-williams-46038938/high-school,WDE ,0.9636," Oakleaf (Orange Park, FL)                    ",,FL
+2010,Jaylan Knighton,https://247sports.com/player/jaylan-knighton-46046875/high-school,RB ,0.9533," Deerfield Beach (Deerfield Beach, FL)                    ",,FL
+2011,Don Chaney Jr.,https://247sports.com/player/don-chaney-jr-92946/high-school,RB ,0.9498," Belen Jesuit Prep (Miami, FL)                    ",,FL
+2012,Jalen Rivers,https://247sports.com/player/jalen-rivers-46039457/high-school,OT ,0.9429," Oakleaf (Orange Park, FL)                    ",,FL
+2013,Michael Redding III,https://247sports.com/player/michael-redding-iii-46055158/high-school,WR ,0.9271," IMG Academy (Bradenton, FL)                    ",,FL
+2014,Tyler Van Dyke,https://247sports.com/player/tyler-van-dyke-88973/high-school,PRO ,0.9174," Suffield Academy (Suffield, CT)                    ",,CT
+2015,Keshawn Washington,https://247sports.com/player/keshawn-washington-46037037/high-school,S ,0.8898," South Dade (Homestead, FL)                    ",,FL
+2016,Dominic Mammarelli,https://247sports.com/player/dominic-mammarelli-46051465/high-school,TE ,0.8858," Naples (Naples, FL)                 ",,FL
+2017,Dazalin Worsham,https://247sports.com/player/dazalin-worsham-46042539/high-school,WR ,0.8783," Hewitt-Trussville (Trussville, AL)                    ",,AL
+2018,Tirek Austin-Cave,https://247sports.com/player/tirek-austin-cave-46054731/high-school,ILB ,0.8776," Camden (Camden, NJ)                    ",,NJ
+2019,Xavier Restrepo,https://247sports.com/player/xavier-restrepo-46050952/high-school,ATH ,0.8699," Deerfield Beach (Deerfield Beach, FL)                    ",,FL
+2020,Keyshawn Smith,https://247sports.com/player/keyshawn-smith-46081770/high-school,WR ,0.8653," Lincoln (San Diego, CA)    ",,CA
+2021,Corey Flagg,https://247sports.com/player/corey-flagg-46052137/high-school,ILB ,0.8608," North Shore (Houston, TX)                    ",,TX
+2022,Chris Washington,https://247sports.com/player/chris-washington-46080943/high-school,OT ,0.8552," Overton (Nashville, TN)                    ",,TN
+2049,MarShawn Lloyd,https://247sports.com/player/marshawn-lloyd-46035423/high-school,RB ,0.9781," DeMatha Catholic (Hyattsville, MD)                    ",,MD
+2050,Luke Doty,https://247sports.com/player/luke-doty-94682/high-school,DUAL ,0.9634," Myrtle Beach  (Myrtle Beach, SC)                    ",,SC
+2051,Mohamed Kaba,https://247sports.com/player/mohamed-kaba-46036513/high-school,ILB ,0.9127," Clinton (Clinton, NC)                    ",,NC
+2052,Mike Wyman,https://247sports.com/player/mike-wyman-46037192/high-school,WR ,0.8945," Dudley (Greensboro, NC)                    ",,NC
+2053,Tyshawn Wannamaker,https://247sports.com/player/tyshawn-wannamaker-46043113/high-school,OG ,0.8825," Calhoun County (Saint Matthews, SC)                    ",,SC
+2054,Trai Jones,https://247sports.com/player/trai-jones-46079844/high-school,OC ,0.8696," Abbeville (Abbeville, SC)                    ",,SC
+2055,Jazston Turnetine,https://247sports.com/player/jazston-turnetine-46081060/high-school,OT ,0.8668," Hutchinson C.C. (Hutchinson, KS)                    ",,KS
+2056,Vershon Lee,https://247sports.com/player/vershon-lee-46076751/high-school,OG ,0.8647," Freedom (Woodbridge, VA)                  ",,VA
+2057,Dominick Hill,https://247sports.com/player/dominick-hill-46038448/high-school,CB ,0.8646," Jones (Orlando, FL)                    ",,FL
+2058,O'Donnell Fortune,https://247sports.com/player/odonnell-fortune-46079872/high-school,S ,0.8639," Sumter (Sumter, SC)                    ",,SC
+2094,Demon Clowney,https://247sports.com/player/demon-clowney-94681/high-school,WDE ,0.9169," St. Frances Academy (Baltimore, MD)    ",,MD
+2095,Lakevias Daniel,https://247sports.com/player/lakevias-daniel-46085476/high-school,CB ,0.8709," Jones County J.C. (Ellisville, MS)  ",,MS
+2096,Derek Bermudez,https://247sports.com/player/derek-bermudez-46080579/high-school,S ,0.8709," Sandalwood (Jacksonville, FL)                 ",,FL
+2097,Austin Keys,https://247sports.com/player/austin-keys-46080850/high-school,ILB ,0.8663," Seminary (Seminary, MS)                    ",,MS
+2098,Kade Renfro,https://247sports.com/player/kade-renfro-46080486/high-school,PRO ,0.8511," Stephenville (Stephenville, TX)    ",,TX
+2099,Daylen Gill,https://247sports.com/player/daylen-gill-90718/high-school,S ,0.8495," Jones County J.C. (Ellisville, MS)                    ",,MS
+2161,Julian Fleming,https://247sports.com/player/julian-fleming-46040058/high-school,WR ,0.9979," Southern Columbia (Catawissa, PA)                    ",,PA
+2162,Paris Johnson Jr.,https://247sports.com/player/paris-johnson-jr-46042173/high-school,OT ,0.9953," Princeton (Cincinnati, OH)                    ",,OH
+2163,Jaxon Smith-Njigba,https://247sports.com/player/jaxon-smith-njigba-46047353/high-school,WR ,0.9856," Rockwall (Rockwall, TX)                    ",,TX
+2164,CJ Stroud,https://247sports.com/player/cj-stroud-46038118/high-school,PRO ,0.9781," Rancho Cucamonga (Rancho Cucamonga, CA)      ",,CA
+2165,Gee Scott Jr.,https://247sports.com/player/gee-scott-jr-46039474/high-school,WR ,0.9703," Eastside Catholic (Sammamish, WA)                    ",,WA
+2166,Mookie Cooper,https://247sports.com/player/mookie-cooper-46039953/high-school,WR ,0.9578," Pattonville (Maryland Heights, MO)                    ",,MO
+2167,Luke Wypler,https://247sports.com/player/luke-wypler-46052032/high-school,OC ,0.9526," St Joseph Regional (Montvale, NJ)                    ",,NJ
+2168,Darrion Henry,https://247sports.com/player/darrion-henry-46049747/high-school,DT ,0.9322," Princeton (Cincinnati, OH)                    ",,OH
+2169,Jacolbe Cowan,https://247sports.com/player/jacolbe-cowan-46036315/high-school,DT ,0.9298," Providence Day School (Charlotte, NC)                    ",,NC
+2170,Kourt Williams,https://247sports.com/player/kourt-williams-46049569/high-school,OLB ,0.9295," St. John Bosco (Bellflower, CA)                    ",,CA
+2171,Ryan Watts,https://247sports.com/player/ryan-watts-46079300/high-school,S ,0.9208," Little Elm (Little Elm, TX)                    ",,TX
+2172,Jack Miller,https://247sports.com/player/jack-miller-46037839/high-school,PRO ,0.8951," Chaparral (Scottsdale, AZ)                    ",,AZ
+2173,Lejond Cavazos,https://247sports.com/player/lejond-cavazos-86707/high-school,CB ,0.8927," IMG Academy (Bradenton, FL)                    ",,FL
+2174,Trey Leroux,https://247sports.com/player/trey-leroux-46048535/high-school,OT ,0.8493," Norwalk (Norwalk, OH)                    ",,OH
+2237,Patrick Jenkins,https://247sports.com/player/patrick-jenkins-46057350/high-school,DT ,0.9124," John Ehret (Marrero, LA)                    ",,LA
+2238,Jamoi Hodge,https://247sports.com/player/jamoi-hodge-46094845/high-school,OLB ,0.8722," Independence C.C. (Independence, KS)                    ",,KS
+2239,Altrique Barlow,https://247sports.com/player/altrique-barlow-91484/high-school,OG ,0.8696," Catholic (Virginia Beach, VA)                    ",,VA
+2240,Khari Coleman,https://247sports.com/player/khari-coleman-46055968/high-school,WDE ,0.868," G.W. Carver (New Orleans, LA)                    ",,LA
+2241,Brandon Coleman,https://247sports.com/player/brandon-coleman-46040674/high-school,OT ,0.8655," Trinity Valley C.C. (Athens, TX)                    ",,TX
+2292,Noah Sewell,https://247sports.com/player/noah-sewell-46040411/high-school,ILB ,0.9935," Orem (Orem, UT)                    ",,UT
+2293,Jay Butterfield,https://247sports.com/player/jay-butterfield-46047108/high-school,PRO ,0.9353," Liberty (Brentwood, CA)                  ",,CA
+2294,Jonathan Denis,https://247sports.com/player/jonathan-denis-46046872/high-school,OG ,0.8969," South Dade (Homestead, FL)                    ",,FL
+2295,Bennett Williams,https://247sports.com/player/bennett-williams-93119/high-school,S ,0.8892," College of San Mateo (San Mateo, CA)    ",,CA
+2296,T.J. Bass,https://247sports.com/player/t-j-bass-46081145/high-school,OG ,0.8817," Butte College (Oroville, CA)                    ",,CA
+2297,Bradyn Swinson,https://247sports.com/player/bradyn-swinson-46059344/high-school,SDE ,0.8776," Chapel Hill (Douglasville, GA)                    ",,GA
+2298,Jared Greenfield,https://247sports.com/player/jared-greenfield-46042490/high-school,S ,0.8722," Narbonne (Harbor City, CA)                  ",,CA
+2299,Jake Shipley,https://247sports.com/player/jake-shipley-46077096/high-school,SDE ,0.856," Shadow Hills  (Indio, CA)    ",,CA
+2339,Darius Snow,https://247sports.com/player/darius-snow-46047461/high-school,OLB ,0.883," Hebron (Carrollton, TX)                    ",,TX
+2340,Devin Hightower,https://247sports.com/player/devin-hightower-46080523/high-school,OLB ,0.868," Archbishop Hoban (Akron, OH)                    ",,OH
+2341,Angelo Grose,https://247sports.com/player/angelo-grose-46053674/high-school,CB ,0.8664," Mansfield (Mansfield, OH)                    ",,OH
+2342,Kyle King,https://247sports.com/player/kyle-king-46076572/high-school,SDE ,0.8552," New Palestine (New Palestine, IN)      ",,IN
+2343,Cal Haladay,https://247sports.com/player/cal-haladay-46059528/high-school,ILB ,0.8547," Southern Columbia (Catawissa, PA)                    ",,PA
+2344,Justin Stevens,https://247sports.com/player/justin-stevens-46085514/high-school,OT ,0.8348," Clarkson Football North (Mississauga, ON)                 ",,ON
+2345,Jack Olsen,https://247sports.com/player/jack-olsen-46079551/high-school,K ,0.8309," Wheaton Warrenville South (Wheaton, IL)                 ",,IL
+2402,Jahari Rogers,https://247sports.com/player/jahari-rogers-46057921/high-school,CB ,0.9633," Arlington (Arlington, TX)                    ",,TX
+2403,Issiah Walker Jr.,https://247sports.com/player/issiah-walker-jr-46041758/high-school,OT ,0.9311," Norland (Miami, FL)                    ",,FL
+2404,Ethan Pouncey,https://247sports.com/player/ethan-pouncey-46079307/high-school,CB ,0.9279999999999999," Winter Park (Winter Park, FL)                    ",,FL
+2405,Antwaun Powell,https://247sports.com/player/antwaun-powell-46057108/high-school,WDE ,0.9251," Indian River (Chesapeake, VA)                    ",,VA
+2406,Anthony Richardson,https://247sports.com/player/anthony-richardson-46049661/high-school,DUAL ,0.9208," Eastside (Gainesville, FL)                    ",,FL
+2407,Joshua Braun,https://247sports.com/player/joshua-braun-83391/high-school,OT ,0.9049," Suwannee (Live Oak, FL)                    ",,FL
+2408,Rashad Torrence II,https://247sports.com/player/rashad-torrence-ii-46041913/high-school,S ,0.8952," Marietta (Marietta, GA)                    ",,GA
+2409,Lamar Goods,https://247sports.com/player/lamar-goods-46056026/high-school,DT ,0.8922," St. Thomas More (Oakdale, CT)                    ",,CT
+2410,Richard Leonard,https://247sports.com/player/richard-leonard-46054385/high-school,OG ,0.8633," Cocoa (Cocoa, FL)                    ",,FL
+2411,Jeremy Crawshaw,https://247sports.com/player/jeremy-crawshaw-46094164/high-school,P ,0.794," ProKick Australia (Australia, AUST)                 ",,AU

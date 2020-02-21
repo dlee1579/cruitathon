@@ -5,9 +5,6 @@ from bs4 import BeautifulSoup
 import os
 import pandas as pd
 
-# from recruiting import *
-
-
 class team_recruits(object):
 	def __init__(self, team_name="Georgia Tech", year=2020):
 		self.team_name = team_name
@@ -71,7 +68,7 @@ class team_recruits(object):
 		self.df["state"] = states
 
 	def populate_offers(self):
-		os.chdir("../raw_data")
+		os.chdir("/Users/dlee/Documents/workspace/cruitathon/raw_data")
 		team_data_file = "{} commit data.csv".format(self.team_name.lower())
 
 		if team_data_file in os.listdir():

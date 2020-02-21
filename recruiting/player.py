@@ -21,7 +21,16 @@ class player(object):
         r = requests.get(self.url, headers=header)
         data = r.text
         soup = BeautifulSoup(data, features="html.parser")
-        self.offers_url = soup.find("a", class_="college-comp__view-all").get("href")
+
+        # print(soup.find("a", class_="college-comp__view-all").get("href"))
+
+        # self.offers_url = soup.find("a", class_="college-comp__view-all").get("href")
+
+        try:
+            self.offers_url = soup.find("a", class_="college-comp__view-all").get("href")
+        except AttributeError:
+            print("Bypassing player offers due to error.")
+            return None
 
         r = requests.get(self.offers_url, headers=header)
         # moving onto new url to extract offers
