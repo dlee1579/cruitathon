@@ -12,6 +12,8 @@ import plotly.graph_objs as go
 import numpy as np
 import json
 import sys
+import plotly.express as px
+
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -23,6 +25,8 @@ class Recruits(Base):
     name = Column(String)
     team = Column(String)
     position = Column(String)
+    hometown = Column(String)
+    state = Column(String)
 
 class Teams(Base):
     __tablename__ = "Teams"
@@ -44,6 +48,16 @@ def pos_dist_plot(pos_dist):
         go.Pie(
             labels=pos_dist["position"],
             values=pos_dist["player_id"]
+        )
+    ]
+    graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
+    return graphJSON
+
+def state_dist_plot(state_dist):
+    data = [
+        go.Pie(
+            labels=state_dist["state"],
+            values=state_dist["player_id"]
         )
     ]
     graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
@@ -103,10 +117,16 @@ def team_view(team_selected):
     recruits_df = pd.read_sql(recruits.statement, session.bind)
     print(recruits_df)
 
+    # fig = px.pie(recruits_df, values="position", names="position")
+    # fig.show()
     pos_dist = recruits_df.groupby(by="position").count().reset_index().sort_values("player_id")[["position", "player_id"]]
-    print(pos_dist)
-    pie = pos_dist_plot(pos_dist)
-    return render_template("./team_view.html", team_selected=team_selected, plot=pie)
+    pos_pie = pos_dist_plot(pos_dist)
+
+    state_dist = recruits_df.groupby(by="state").count().reset_index().sort_values("player_id")[["state", "player_id"]]
+    state_pie = state_dist_plot(state_dist)
+
+    # posplot=pos_pie, stateplot = state_pie
+    return render_template("./team_view.html", team_selected=team_selected, posplot=pos_pie, stateplot = state_pie)
 
 @app.route("/submit", methods=['POST'])
 def submit():

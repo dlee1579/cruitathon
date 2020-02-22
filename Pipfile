@@ -26,6 +26,7 @@ bs4 = "*"
 pymysql = "*"
 typed-ast = "*"
 psycopg2-binary = "*"
+chart-studio = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "226c320eba2eeda96376314f42e0bfb0883ff77f071bfaf4b547292e0070bfb7"
+            "sha256": "69901e8ca65ed0e4224b9041995fee9deeab6a14aedea138a6409029384f4419"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -51,6 +51,14 @@
                 "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
             ],
             "version": "==3.0.4"
+        },
+        "chart-studio": {
+            "hashes": [
+                "sha256:1293776553a552bb3ff918c33d70f3b0794103b8cb0ac08aad8bde1c94ee65e3",
+                "sha256:7dcd66ccdba81ca54025cfcb76e0e68ed9922f474adc45848542f186567f60da"
+            ],
+            "index": "pypi",
+            "version": "==1.0.0"
         },
         "click": {
             "hashes": [
@@ -403,7 +411,7 @@
                 "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
                 "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
             ],
-            "markers": "platform_system == 'Darwin'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==0.1.0"
         },
         "backcall": {

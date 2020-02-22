@@ -19,18 +19,38 @@
     <div>
         <h1>{{team_selected}}</h1>
     </div>
-    {% if plot %}
-    <div class="col-xl-6">
-        <div class="chart" id="piechart">
-            <script>
-                var graphs = {{plot | safe}};
-                var layout = {
-                    title: '{{team_selected}} Commits by Position',
-                }
-                Plotly.plot('piechart',graphs,layout);
-            </script>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                {% if posplot %}
+                <div class="chart" id="position_pie">
+                    <script>
+                        var pos_graphs = {{posplot | safe}};
+                        var layout = {
+                            title: '{{team_selected}} Commits by Position',
+                        }
+                        Plotly.plot('position_pie',pos_graphs,layout);
+                    </script>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="col-xl-6">
+                {% if stateplot %}
+                <div class="chart" id="state_pie">
+                    <script>
+                        var state_graphs = {{stateplot | safe}};
+                        var layout = {
+                            title: '{{team_selected}} Commits by Home State',
+                        }
+                        Plotly.plot('state_pie',state_graphs,layout);
+                    </script>
+                </div>
+                {% endif %}
+            </div>
         </div>
     </div>
-    {% endif %}
+    
 </body>
 </html>
