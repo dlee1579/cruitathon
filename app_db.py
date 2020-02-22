@@ -19,14 +19,15 @@ Base = declarative_base()
 
 class Recruits(Base):
     __tablename__ = "Recruits"
-    id = Column(Integer, primary_key =  True)
+    player_id = Column(Integer, primary_key =  True)
     name = Column(String)
     team = Column(String)
     position = Column(String)
 
 class Teams(Base):
     __tablename__ = "Teams"
-    team_name = Column(String, primary_key=True)
+    team_id = Column(Integer, primary_key=True)
+    team = Column(String)
     conference = Column(String)
     mascot = Column(String)
     city = Column(String)
@@ -34,15 +35,15 @@ class Teams(Base):
 
 class Offers(Base):
     __tablename__ = "Offers"
-    column_not_exist_in_db = Column(Integer, primary_key=True) # just add for sake of this error, dont add in db
+    offer_id = Column(Integer, primary_key=True)
     player_id = Column(Integer)
-    team_offered = Column(String)
+    offer = Column(String)
 
 def pos_dist_plot(pos_dist):
     data = [
         go.Pie(
             labels=pos_dist["position"],
-            values=pos_dist["id"]
+            values=pos_dist["player_id"]
         )
     ]
     graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
@@ -60,13 +61,13 @@ def competition_plot(competitors, count_comp):
     graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
     return graphJSON
 
-# db = create_engine("postgresql+psycopg2://postgres:Dl1579icn33@localhost:5432/cruitathon")
-db = create_engine('mysql+pymysql://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
+db = create_engine("postgres+psycopg2://vjlpuguktrkyxc:75f49540a175bf9ffc0b5c6172cd3303d035f5c93c92e7256c9201ce4cf9a303@ec2-34-235-108-68.compute-1.amazonaws.com:5432/dd3fi28k9rhe31")
+# db = create_engine('mysql+pymysql://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
 
 Session = sessionmaker(bind = db)
 session = Session()
 # recruits = session.query(Recruits)
-teams = session.query(Teams.team_name, Teams.conference).all()
+teams = session.query(Teams.team, Teams.conference).all()
 # competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
 #     .join(Recruits, Offers.player_id==Recruits.id)\
 #     .group_by(Recruits.team, Offers.team_offered)\
@@ -77,9 +78,9 @@ session.close()
 
 teamlist = []
 teams_df =  pd.read_sql_table("Teams",db)
-# print(teams_df)
+print(teams_df)
 for row in teams:
-    teamlist.append(row.team_name)
+    teamlist.append(row.team)
     # print(row)
 # print("Team List below:")
 # print(teamlist)
@@ -102,7 +103,7 @@ def team_view(team_selected):
     recruits_df = pd.read_sql(recruits.statement, session.bind)
     print(recruits_df)
 
-    pos_dist = recruits_df.groupby(by="position").count().reset_index().sort_values("id")[["position", "id"]]
+    pos_dist = recruits_df.groupby(by="position").count().reset_index().sort_values("player_id")[["position", "player_id"]]
     print(pos_dist)
     pie = pos_dist_plot(pos_dist)
     return render_template("./team_view.html", team_selected=team_selected, plot=pie)
@@ -113,7 +114,7 @@ def submit():
     # Session = sessionmaker(bind = db)
     session = Session()
     competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
-        .join(Recruits, Offers.player_id==Recruits.id)\
+        .join(Recruits, Offers.player_id==Recruits.player_id)\
         .group_by(Recruits.team, Offers.team_offered)\
         .having(Recruits.team!=Offers.team_offered)\
         # .limit(8)

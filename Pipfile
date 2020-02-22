@@ -8,8 +8,6 @@ ipykernel = "*"
 
 [packages]
 flask = "*"
-psycopg2 = "*"
-psycopg2-binary = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 pandas = "*"
@@ -27,6 +25,7 @@ bs4 = "*"
 # mysqlclient = "*"
 pymysql = "*"
 typed-ast = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
