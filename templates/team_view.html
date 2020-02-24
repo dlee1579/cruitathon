@@ -50,6 +50,21 @@
                 {% endif %}
             </div>
         </div>
+        <div class="row">
+            <div class="col-xl-6">
+                {% if compplot %}
+                <div class="chart" id="comp_bar">
+                    <script>
+                        var comp_graphs = {{compplot | safe}};
+                        var layout = {
+                            title: '{{team_selected}} Commits by Rival Offers',
+                        }
+                        Plotly.plot('comp_bar',comp_graphs,layout);
+                    </script>
+                </div>
+                {% endif %}
+            </div>
+        </div>
     </div>
     
 </body>
