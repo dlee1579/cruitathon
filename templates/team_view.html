@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet">
         <title>{{team_selected}} - Cruitathon</title>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -22,6 +22,13 @@
     
     <div class="container">
         <div class="row">
+            <div class ="col-xl-6">
+                <div class="key_data">
+                    <p>Team: {{team_selected}}</p>
+                    <p># of Commits: {{count_recruits}}</p>
+                    <p>Average Commit Score: {{avg_score}}</p>
+                </div>
+            </div>
             <div class="col-xl-6">
                 {% if posplot %}
                 <div class="chart" id="position_pie">
@@ -35,7 +42,10 @@
                 </div>
                 {% endif %}
             </div>
-            
+        </div>
+        <div class="row">
+            <div class ="col-xl-6">
+            </div>
             <div class="col-xl-6">
                 {% if stateplot %}
                 <div class="chart" id="state_pie">

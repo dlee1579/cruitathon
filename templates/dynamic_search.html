@@ -1,0 +1,18 @@
+<div class="row justify-content-center text-center">
+    <div class="col-12 col-lg-6">
+      <input id="teamInput" type="text" class="form-control form-control-lg text-center" placeholder="Team Name..." data-reactid="29">
+      <div id="search_results">
+          {% if not teams_df.empty %}
+          <ul id="teamList">
+            {% for key, value in teams_df.iterrows() %}
+            <li id="teamList" class="list-group-item list-group-item-action justify-content-between">
+              <a href="{{url_for('team_view',team_selected=value['team'])}}" method="GET" >
+                {{value["team"]}}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+      </div>
+    </div>
+  </div>
