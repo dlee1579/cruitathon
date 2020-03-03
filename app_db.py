@@ -64,13 +64,13 @@ def state_dist_plot(state_dist):
     graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
     return graphJSON
 
-def competition_plot(competitors, count_comp):
-    df = pd.DataFrame({'x': competitors, 'y': count_comp}) # creating a sample dataframe
+def competition_plot(comp_dist):
+    # df = pd.DataFrame({'x': competitors, 'y': count_comp}) # creating a sample dataframe
 
     data = [
         go.Bar(
-            x=df['x'], # assign x as the dataframe column 'x'
-            y=df['y']
+            x=comp_dist['offer'], # assign x as the dataframe column 'x'
+            y=comp_dist['offer_count']
         )
     ]
     graphJSON = json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder)
@@ -116,7 +116,7 @@ def team_view(team_selected):
     # for r in recruits:
     #     print(r.__dict__)
     recruits_df = pd.read_sql(recruits.statement, session.bind)
-    print(recruits_df)
+    # print(recruits_df)
 
     # fig = px.pie(recruits_df, values="position", names="position")
     # fig.show()
@@ -126,51 +126,66 @@ def team_view(team_selected):
     state_dist = recruits_df.groupby(by="state").count().reset_index().sort_values("player_id")[["state", "player_id"]]
     state_pie = state_dist_plot(state_dist)
 
-    count_recruits = len(recruits_df.index)
-    avg_score = round(recruits_df.score.mean(),4)
+    competition_query = '''
+    select team, offer, count(offer) as offer_count from 
+    (
+    select o.player_id, team, offer from "Offers" o
+    join "Recruits" r on o.player_id =r.player_id
+    where team = '{}'
+    and team <> offer
+    ) t
+    group by team, offer
+    order by offer_count desc
+    limit 8
+    '''
+    comp_dist = pd.read_sql_query(competition_query.format(team_selected), session.bind)
+    print(type(comp_dist))
+    comp_bar = competition_plot(comp_dist)
+    # print(comp_dist)
+    session.close()
+
+    # competition = session.query(Recruits.team, Offers.offer, func.count(Offers.offer))\
+    #     .join(Recruits, Offers.player_id==Recruits.player_id)\
+    #     .group_by(Recruits.team, Offers.offer)\
+    #     .having(Recruits.team!=Offers.offer)\
 
     # posplot=pos_pie, stateplot = state_pie
-    return render_template("./team_view.html",\
-        team_selected=team_selected,\
-        posplot=pos_pie,\
-        stateplot = state_pie,\
-        count_recruits=count_recruits,\
-        avg_score = avg_score)
+    return render_template("./team_view.html", team_selected=team_selected, posplot=pos_pie, stateplot = state_pie, compplot = comp_bar)
 
-@app.route("/submit", methods=['POST'])
-def submit():
-    # db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
-    # Session = sessionmaker(bind = db)
-    session = Session()
-    competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
-        .join(Recruits, Offers.player_id==Recruits.player_id)\
-        .group_by(Recruits.team, Offers.team_offered)\
-        .having(Recruits.team!=Offers.team_offered)\
-        # .limit(8)
-        # .having(func.count(Offers.team_offered)>7)\
-        # .limit(8)
-    team_selected = request.form["team_selected"]
-    competition_results = competition.having(Recruits.team==team_selected).order_by(func.count(Offers.team_offered).desc()).limit(8)
-    session.close()
-    # db.dispose()
-    # print(competition_results)
-    competitors = [x[1] for x in competition_results]
-    count_comp = [x[2] for x in competition_results]
+# @app.route("/submit", methods=['POST'])
+# def submit():
+#     # db = create_engine('mysql+mysqldb://f3hlBYQiVA:a74UGArRfC@remotemysql.com/f3hlBYQiVA', echo=True, poolclass=NullPool)
+#     # Session = sessionmaker(bind = db)
+#     session = Session()
+#     competition = session.query(Recruits.team, Offers.team_offered, func.count(Offers.team_offered))\
+#         .join(Recruits, Offers.player_id==Recruits.player_id)\
+#         .group_by(Recruits.team, Offers.team_offered)\
+#         .having(Recruits.team!=Offers.team_offered)\
+#         # .limit(8)
+#         # .having(func.count(Offers.team_offered)>7)\
+#         # .limit(8)
+#     team_selected = request.form["team_selected"]
+#     competition_results = competition.having(Recruits.team==team_selected).order_by(func.count(Offers.team_offered).desc()).limit(8)
+#     session.close()
+#     # db.dispose()
+#     # print(competition_results)
+#     competitors = [x[1] for x in competition_results]
+#     count_comp = [x[2] for x in competition_results]
     
-    result = recruits.filter(Recruits.team==team_selected)
-    commit_list = []
-    position_list = []
-    team_data = pd.DataFrame(columns=["name", "position"])
-    for r in result:
-        commit_list.append(r.name)
-        position_list.append(r.position)
-        # team_data.append([r.name, r.position])
-        # print(r.name, r.position)
-    team_data["name"]=commit_list
-    team_data["position"]=position_list
-    bar = competition_plot(competitors=competitors, count_comp=count_comp)
+#     result = recruits.filter(Recruits.team==team_selected)
+#     commit_list = []
+#     position_list = []
+#     team_data = pd.DataFrame(columns=["name", "position"])
+#     for r in result:
+#         commit_list.append(r.name)
+#         position_list.append(r.position)
+#         # team_data.append([r.name, r.position])
+#         # print(r.name, r.position)
+#     team_data["name"]=commit_list
+#     team_data["position"]=position_list
+#     bar = competition_plot(competitors=competitors, count_comp=count_comp)
 
-    return render_template("/index.html", teams=teamlist, team_selected=team_selected, team_data=team_data, competition_results=competition_results, plot=bar)
+#     return render_template("/index.html", teams=teamlist, team_selected=team_selected, team_data=team_data, competition_results=competition_results, plot=bar)
 
 
 if __name__ == "__main__":
