@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Numeric
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.pool import NullPool
@@ -25,6 +25,7 @@ class Recruits(Base):
     name = Column(String)
     team = Column(String)
     position = Column(String)
+    score = Column(Numeric)
     hometown = Column(String)
     state = Column(String)
 
@@ -125,8 +126,16 @@ def team_view(team_selected):
     state_dist = recruits_df.groupby(by="state").count().reset_index().sort_values("player_id")[["state", "player_id"]]
     state_pie = state_dist_plot(state_dist)
 
+    count_recruits = len(recruits_df.index)
+    avg_score = round(recruits_df.score.mean(),4)
+
     # posplot=pos_pie, stateplot = state_pie
-    return render_template("./team_view.html", team_selected=team_selected, posplot=pos_pie, stateplot = state_pie)
+    return render_template("./team_view.html",\
+        team_selected=team_selected,\
+        posplot=pos_pie,\
+        stateplot = state_pie,\
+        count_recruits=count_recruits,\
+        avg_score = avg_score)
 
 @app.route("/submit", methods=['POST'])
 def submit():
